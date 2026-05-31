@@ -1,0 +1,1700 @@
+{
+  "Lựa chọn khởi đầu": {
+    "Kẻ ngoại lai": {
+      "description": "{{user}} chuyển sinh từ Trái Đất hiện đại đến IGC-4108. {{user}} đã chuyển sinh đến tương lai! {{user}} không biết gì về thế giới này, thậm chí không biết mình đến đây bằng cách nào. {{user}} chỉ biết rằng, {{user}} có một con tàu, và phải rời khỏi đây.",
+      "spawnLocation": "Khu vực trống trải ở phân khu W3, bên trong một con tàu phương chu cổ đại bị hư hỏng",
+      "difficulty": 0,
+      "startingReputation": {
+        "Đế quốc Thất Tinh": 0,
+        "Liên bang Tinh Tọa": 0,
+        "Nữ hoàng quốc Rosaria": 0,
+        "Tập đoàn Giao dịch Liên sao (ICE)": 0,
+        "Hợp chúng quốc Zemuria": 0,
+        "Vương quốc Bậc cao Aethelian": 0
+      }
+    },
+    "Jim Raynor": {
+      "description": "{{user}} đang uống rượu trong quán bar, một kẻ kỳ lạ nói rằng, một tổ chức muốn {{user}} đi tìm thần khí của Tiền bối, thù lao rất hậu hĩnh.",
+      "spawnLocation": "Phân khu E1, một quán bar ở tinh khu Đại Hoang Dã",
+      "difficulty": 0,
+      "startingReputation": {
+        "Đế quốc Thất Tinh": 0,
+        "Liên bang Tinh Tọa": 0,
+        "Nữ hoàng quốc Rosaria": 0,
+        "Tập đoàn Giao dịch Liên sao (ICE)": 0,
+        "Hợp chúng quốc Zemuria": 0,
+        "Vương quốc Bậc cao Aethelian": 0
+      }
+    },
+    "Kẻ diệt bọ": {
+      "description": "{{user}} là một trong nhiều phi công đánh thuê tiến đến phân khu E2 để diệt bọ. Cầm chắc súng, vì bạn sẽ cần đến nó đấy.",
+      "spawnLocation": "Phân khu E1, tinh khu Đại Hoang Dã",
+      "difficulty": 0,
+      "startingReputation": {
+        "Đế quốc Thất Tinh": 0,
+        "Liên bang Tinh Tọa": 5,
+        "Nữ hoàng quốc Rosaria": 0,
+        "Tập đoàn Giao dịch Liên sao (ICE)": 0,
+        "Hợp chúng quốc Zemuria": 0,
+        "Vương quốc Bậc cao Aethelian": 0
+      }
+    },
+    "Quý tộc Đế quốc": {
+      "description": "{{user}} là một quý tộc Đế quốc, tổng đốc của một tinh khu đã tử trận trong chiến tranh, và {{user}} do xui xẻo (hay may mắn) đã đắc cử làm tổng đốc của tinh khu đó, ngay sát vách là bọn bọ. Hãy chuẩn bị sẵn sàng để chọn giữa chết vì làm việc quá sức và chết trận đi.",
+      "spawnLocation": "Phân khu NE1, Thiên Khung Chi Quan",
+      "difficulty": 0,
+      "startingReputation": {
+        "Đế quốc Thất Tinh": 100,
+        "Liên bang Tinh Tọa": 0,
+        "Nữ hoàng quốc Rosaria": 0,
+        "Tập đoàn Giao dịch Liên sao (ICE)": 0,
+        "Hợp chúng quốc Zemuria": 0,
+        "Vương quốc Bậc cao Aethelian": 0
+      }
+    }
+  },
+  "Lựa chọn chủng tộc": [
+    "Đế quốc Thất Tinh",
+    "Liên bang Tinh Tọa",
+    "Hợp chúng quốc Zemuria",
+    "Nữ hoàng quốc Rosaria",
+    "Tập đoàn Giao dịch Liên sao (ICE)",
+    "Vương quốc Bậc cao Aethelian",
+    "Không quốc tịch"
+  ],
+  "Đạo cụ tùy chọn": {
+    "Giáp nhẹ 'Tùy Tùng' Đế quốc": {
+      "tags": [
+        "Áo giáp",
+        "T1",
+        "Đế quốc Thất Tinh"
+      ],
+      "tier": "T1",
+      "requiredSkill": "engineering:0.5, science:0.5",
+      "resourceBonus": {
+        "maxHP": 50,
+        "maxEnergy": 120,
+        "energyRegen": 2,
+        "reactionSpeed": 1
+      },
+      "effects": "Giảm sát thương: 10\nBộ giáp này cung cấp hệ thống duy trì sự sống cơ bản và năng lượng phụ trợ yếu.",
+      "description": "Áo giáp cơ bản được quân đội Đế quốc Thất Tinh cấp cho tân binh hoặc tùy tùng của quý tộc. Chú trọng vẻ ngoài lộng lẫy và sự ổn định của hệ thống tuần hoàn năng lượng. Ngay cả khi lăn lộn trong bùn lầy, binh lính đế quốc cũng không được đánh mất thể diện."
+    },
+    "Đồ phòng vệ 'Công dân' Liên bang": {
+      "tags": [
+        "Áo giáp",
+        "T1",
+        "Liên bang Tinh Tọa"
+      ],
+      "tier": "T1",
+      "requiredSkill": "engineering:0.8, gunnery:0.2",
+      "resourceBonus": {
+        "maxHP": 60,
+        "maxEnergy": 100,
+        "energyRegen": 1,
+        "reactionSpeed": 1
+      },
+      "effects": "Giảm sát thương: 15\nCung cấp khả năng bảo vệ vật lý và chống mài mòn cực kỳ đáng tin cậy.",
+      "description": "Đồ phòng vệ tiêu chuẩn được sản xuất hàng loạt của Liên bang Tinh Tọa. Không có bất kỳ chi tiết trang trí thừa thãi nào, các tấm vật liệu composite màu xám và các cổng kết nối lộ ra ngoài thể hiện chủ nghĩa thực dụng cực đoan. Nó xấu xí, nhưng nó có thể giúp bạn sống sót thêm hai giây trong làn đạn."
+    },
+    "Đồ bảo hộ 'Công nhân' Zemuria": {
+      "tags": [
+        "Áo giáp",
+        "T1",
+        "Hợp chúng quốc Zemuria"
+      ],
+      "tier": "T1",
+      "requiredSkill": "engineering:1.0",
+      "resourceBonus": {
+        "maxHP": 70,
+        "maxEnergy": 80,
+        "energyRegen": 1,
+        "reactionSpeed": 0
+      },
+      "effects": "Giảm sát thương: 18\nTích hợp khung xương ngoài đơn giản, khả năng mang vác tăng mạnh.",
+      "description": "Vốn dĩ là trang phục bảo hộ được thiết kế cho môi trường công nghiệp rủi ro cao, sau một vài cải tiến quân sự đơn giản đã trở thành trang bị tiêu chuẩn của dân quân Zemuria. Nặng nề, chống bức xạ, mang mùi dầu máy, mang lại cảm giác an toàn vững chắc."
+    },
+    "Đồ chống bạo động an ninh tiêu chuẩn ICE": {
+      "tags": [
+        "Áo giáp",
+        "T1",
+        "ICE"
+      ],
+      "tier": "T1",
+      "requiredSkill": "control:0.6, detection:0.4",
+      "resourceBonus": {
+        "maxHP": 50,
+        "maxEnergy": 110,
+        "energyRegen": 3,
+        "reactionSpeed": 2
+      },
+      "effects": "Giảm sát thương: 12\nTích hợp mô-đun liên lạc cao cấp và cổng kết nối hệ thống nhận diện địch ta.",
+      "description": "Trang bị tiêu chuẩn mà doanh nghiệp ICE trang bị cho nhân viên an ninh đồn trú trên các trạm không gian và tàu buôn. Phối màu đen trắng, thiết kế khí động học, LOGO trước ngực rất bắt mắt. Nhẹ nhàng, linh hoạt, rất thích hợp cho tác chiến cự ly gần trong nhà (CQB)."
+    },
+    "Giáp lễ nghi 'Thị tùng' Rosaria": {
+      "tags": [
+        "Áo giáp",
+        "T1",
+        "Nữ hoàng quốc Rosaria"
+      ],
+      "tier": "T1",
+      "requiredSkill": "psionics:0.7, science:0.3",
+      "resourceBonus": {
+        "maxHP": 45,
+        "maxEnergy": 130,
+        "energyRegen": 1,
+        "reactionSpeed": 2
+      },
+      "effects": "Giảm sát thương: 8\nMạch cộng hưởng linh năng yếu, tăng cường đôi chút độ ổn định linh năng.",
+      "description": "Gọi là áo giáp, chi bằng nói đây là một bộ lễ phục có đính các mảnh kim loại. Nó tràn ngập các đường nét sắc nhọn kiểu Gothic và các biểu tượng tôn giáo. Mặc dù khả năng phòng thủ bình thường, nhưng đối với người Rosaria vốn coi trọng vinh quang và linh năng, nó là biểu tượng của thân phận."
+    },
+    "Vải dệt 'Phong Hành Giả' Aethelian": {
+      "tags": [
+        "Áo giáp",
+        "T1",
+        "Vương quốc Bậc cao Aethelian"
+      ],
+      "tier": "T1",
+      "requiredSkill": "science:0.6, psionics:0.4",
+      "resourceBonus": {
+        "maxHP": 40,
+        "maxEnergy": 140,
+        "energyRegen": 1,
+        "reactionSpeed": 3
+      },
+      "effects": "Giảm sát thương: 5\nTính linh hoạt cực cao, đồng thời chất liệu có chức năng tự làm sạch và điều chỉnh nhiệt độ vi mô.",
+      "description": "Vải nano được dệt bằng công nghệ phục hưng của Aethelian. Nó trông giống như một chiếc áo choàng lụa bình thường, nhẹ như không, hoàn toàn không cản trở hành động, phù hợp với những chiến binh kiêu ngạo tự tin có thể né tránh mọi đòn tấn công."
+    },
+    "Súng trường điện từ EMR-10 Đế quốc": {
+      "tags": [
+        "Vũ khí cầm tay",
+        "T2",
+        "Đế quốc Thất Tinh",
+        "Điện từ"
+      ],
+      "tier": "T2",
+      "requiredSkill": "gunnery:0.7, science:0.3",
+      "resourceBonus": {},
+      "effects": "Sát thương: 500 (Động năng/Điện từ)\nTốc độ bắn: 1 phát/dt\nLoại đạn: Đạn lõi sắt đặc chủng 12.7mm\nSức chứa hộp đạn: 10\nTiêu hao: 10 Năng lượng/phát\nĐặc tính: Xuyên thấu cao, có thêm sát thương cộng thêm đối với phương tiện bọc thép nhẹ và đơn vị cơ khí. Độ giật cực lớn, độ chính xác giảm mạnh khi bắn lúc di chuyển.",
+      "description": "Súng trường điện từ hạng nặng được chế tác tỉ mỉ bởi kho vũ khí Đế quốc. Thân súng thon dài, sử dụng lớp sơn vàng sẫm và đen, tràn ngập các chi tiết điêu khắc lộng lẫy kiểu Baroque. Nó được thiết kế để tấn công chính xác các cỗ máy giết chóc mà Đế quốc gặp phải ở tinh khu Phá Toái W1, mỗi viên đạn được cuộn dây năng lượng gia tốc đến tốc độ cận âm, đủ để xé toạc hầu hết các loại giáp cá nhân."
+    },
+    "Súng trường đột kích AC-74 Hợp chúng quốc": {
+      "tags": [
+        "Vũ khí cầm tay",
+        "T2",
+        "Hợp chúng quốc Zemuria",
+        "Đạn thực"
+      ],
+      "tier": "T2",
+      "requiredSkill": "gunnery:0.9, engineering:0.1",
+      "resourceBonus": {},
+      "effects": "Sát thương: 40 (Động năng) x 10 phát/dt\nTốc độ bắn: 10 phát/dt\nLoại đạn: Đạn tiêu chuẩn 7.62x39mm\nSức chứa hộp đạn: 30\nTiêu hao: Không\nĐặc tính: Hiệu suất cực kỳ đáng tin cậy, tỷ lệ hỏng hóc cực thấp trong môi trường khắc nghiệt. Độ tản mạn đường đạn khá lớn khi bắn tự động hoàn toàn.",
+      "description": "Niềm tự hào của Hợp chúng quốc Zemuria, một khẩu súng trường sinh ra vì nhân dân. Thiết kế của nó thô ráp và thực dụng, báng súng bằng gỗ sẫm màu và buồng đạn dập khuôn bằng thép là dấu hiệu nhận biết của nó. Vành bảo vệ cò súng lớn và bộ chuyển đổi chế độ bắn kiểu cần gạt, đảm bảo rằng ngay cả những người lính mặc đồ bảo hộ vũ trụ dày cộm cũng có thể dễ dàng thao tác trong môi trường không trọng lượng. Nó là sự kết hợp hoàn hảo giữa chủ nghĩa tập thể và tinh thần thực dụng."
+    },
+    "Súng phóng đa dụng FSR-2000 Liên bang": {
+      "tags": [
+        "Vũ khí cầm tay",
+        "T2",
+        "Liên bang Tinh Tọa",
+        "Đạn thực"
+      ],
+      "tier": "T2",
+      "requiredSkill": "gunnery:0.8, engineering:0.2",
+      "resourceBonus": {},
+      "effects": "Sát thương (Chế độ 1): 16 (Động năng) x 30 (10x3) /dt (Đạn ghém)\nSát thương (Chế độ 2): 100 (Nhiệt năng) x 3 /dt (Đạn xuyên giáp)\nTốc độ bắn: 3 phát/dt\nLoại đạn: Đạn đa năng cỡ 12\nSức chứa hộp đạn: 20 (Băng đạn trống)\nTiêu hao: Không\nĐặc tính: Có thể chuyển đổi nhanh chế độ đạn thông qua bộ điều chỉnh trước nòng súng, nhằm đối phó với nhiều loại kẻ thù khác nhau.",
+      "description": "Để đối phó với các binh chủng sinh học đa dạng của Trùng quần, Liên bang đã phát triển loại vũ khí tác chiến cự ly gần có cấu trúc bullpup này. Thân súng làm từ polymer phân tử cao màu xám, trông ngắn gọn và mạnh mẽ. Băng đạn trống dung lượng lớn của nó đảm bảo hỏa lực đầu ra liên tục, cho dù là dùng đạn ghém để dọn dẹp bầy nhảy vọt, hay dùng đạn xuyên giáp HEAT để đối phó với những vệ binh bọc giáp dày, FSR-2000 đều là đối tác đáng tin cậy nhất của Thủy quân lục chiến Liên bang."
+    },
+    "Trường kiếm linh năng Rosaria": {
+      "tags": [
+        "Vũ khí cầm tay",
+        "T2",
+        "Nữ hoàng quốc Rosaria",
+        "Linh năng"
+      ],
+      "tier": "T2",
+      "requiredSkill": "psionics:0.8, gunnery:0.2",
+      "resourceBonus": {},
+      "effects": "Sát thương (Cận chiến): 250 (Bí thuật)\nSát thương (Tầm xa): 180 (Bí thuật)\nTầm bắn (Tầm xa): 200m\nTiêu hao: 15 Năng lượng/lần (Chém cận chiến hoặc tia năng lượng tầm xa)\nĐặc tính: Chỉ có quý tộc Rosaria sở hữu 'Thánh ngân' mới có thể kích hoạt. Lưỡi kiếm có thể thực thể hóa, cũng có thể bắn ra các tia linh năng hội tụ.",
+      "description": "Một vũ khí thanh lịch kết hợp giữa tính nghi thức và sức sát thương. Chuôi kiếm làm từ bạch kim và ngà voi, trên đó khảm các loại đá quý đại diện cho gia tộc của người sử dụng. Khi chưa kích hoạt, nó chỉ là một chuôi kiếm lộng lẫy; khi người sử dụng bơm linh năng vào, một lưỡi kiếm năng lượng thuần khiết, phát ra tiếng ong ong như thánh ca sẽ ngay lập tức thành hình. Nó là sự cụ thể hóa của thần quyền và bạo lực, là thánh khí để thanh tẩy dị đoan."
+    },
+    "Đèn pha rọi ánh sáng mạnh xách tay": {
+      "tags": [
+        "Công cụ",
+        "T1",
+        "Vật phẩm tiêu hao"
+      ],
+      "tier": "T1",
+      "requiredSkill": "engineering:0.2, detection:0.8",
+      "resourceBonus": {},
+      "effects": "Phạm vi chiếu sáng: Khu vực hình nón 100 mét\nThời gian hoạt động: 8 giờ (Có thể sạc lại)\nChế độ: Sáng liên tục / Chớp nháy\nĐặc tính: Chế độ chớp nháy có thể làm mù mục tiêu không được bảo vệ trong thời gian ngắn, gây ra trạng thái 'Chói mắt' trong 1dt.",
+      "description": "Một chiếc đèn pha rọi cấp công nghiệp chắc chắn và bền bỉ, thường thấy trên thắt lưng của thợ mỏ, nhà thám hiểm và nhân viên an ninh. Vỏ ngoài làm từ polymer cường lực, có thể chịu được va đập mạnh. Tuy không có hàm lượng công nghệ cao, nhưng trong những trạm không gian bỏ hoang tối tăm hay các hang động đen kịt, nó là nguồn sáng đáng tin cậy nhất."
+    },
+    "Công cụ giải mã cầm tay đa năng": {
+      "tags": [
+        "Công cụ",
+        "T2",
+        "Thiết bị điện tử"
+      ],
+      "tier": "T2",
+      "requiredSkill": "control:1.0",
+      "resourceBonus": {
+        "maxEnergy": 50
+      },
+      "effects": "Chức năng: Qua mặt các cửa khóa điện tử, trạm dữ liệu và hệ thống an ninh cấp T1 và T2.\nGiá trị cộng thêm kiểm định: Khi thực hiện các kiểm định liên quan đến bẻ khóa, cung cấp +1 giá trị hiệu quả.\nTiêu hao: 5 Năng lượng/lần\nĐặc tính: Tích hợp cơ sở dữ liệu nhỏ, chứa hầu hết các giao thức mã hóa dân sự và một phần quân sự đã biết.",
+      "description": "Một thiết bị trông giống như máy chơi game cầm tay đời cũ, được trang bị một màn hình cảm ứng nhỏ và nhiều loại cổng kết nối dữ liệu có thể thu vào. Nó là công cụ bắt buộc phải có đối với hacker, kẻ buôn lậu và bất kỳ ai cần \"quyền truy cập trái phép\". Thiết bị sẽ tự động chọn thuật toán bẻ khóa tối ưu dựa trên cường độ mã hóa của mục tiêu và hiển thị thanh tiến trình bẻ khóa trên màn hình."
+    },
+    "Găng tay bám dính từ tính 'Thạch Sùng'": {
+      "tags": [
+        "Công cụ",
+        "T2",
+        "Phụ kiện"
+      ],
+      "tier": "T2",
+      "requiredSkill": "engineering:0.6, science:0.4",
+      "resourceBonus": {},
+      "effects": "Chức năng: Cho phép người sử dụng bám vào hầu hết các bề mặt kim loại, bao gồm cả việc leo trèo trên vỏ tàu trong môi trường không trọng lượng.\nTiêu hao: 2 Năng lượng/dt (Khi kích hoạt)\nĐặc tính: Lòng bàn tay mỗi găng tay có một công tắc cảm biến áp suất, chỉ cần nhấn mạnh là có thể kích hoạt hoặc tắt từ trường.",
+      "description": "Một đôi găng tay chiến thuật màu đen, phần lòng bàn tay và đầu ngón tay được phủ bằng sợi điện từ đặc biệt. Khi kích hoạt, găng tay sẽ phát ra tiếng vo ve yếu ớt và có thể bám chặt vào các vật liệu sắt từ. Đây là một trong những trang bị an toàn tiêu chuẩn cho thủy thủ đoàn khi thực hiện các hoạt động ngoài không gian (EVA), và cũng rất được ưa chuộng bởi những kẻ xâm nhập thích xâm nhập mục tiêu từ các \"kênh không chính quy\"."
+    },
+    "Rất nhiều tiền": {
+      "tags": [
+        "Tiền bạc"
+      ],
+      "tier": "T4",
+      "requiredSkill": "Không",
+      "resourceBonus": {},
+      "effects": "Đổi ngay lập tức 100M điểm tín dụng",
+      "description": "Bitcoin không gian."
+    },
+    "Máy chiếu ngụy trang ảnh ảo cá nhân": {
+      "tags": [
+        "Công cụ",
+        "T3",
+        "Thiết bị điện tử"
+      ],
+      "tier": "T3",
+      "requiredSkill": "control:0.7, detection:0.3",
+      "resourceBonus": {
+        "maxEnergy": 200
+      },
+      "effects": "Chức năng: Tạo ra một ảnh ảo có thể lập trình xung quanh người sử dụng, có thể mô phỏng thành hộp, đống rác hoặc các vật thể môi trường khác.\nẢnh hưởng kiểm định: Tăng độ khó khi kẻ địch phát hiện ra bạn (Kiểm định 'Trinh sát' của đối phương DC+10).\nTiêu hao: 10 Năng lượng/dt (Khi kích hoạt)\nĐặc tính: Ảnh ảo không chịu được tiếp xúc vật lý, một khi bị chạm vào hoặc bị tấn công sẽ mất tác dụng.",
+      "description": "Một đĩa kim loại cỡ bằng bàn tay, có thể gắn vào quần áo hoặc áo giáp. Sau khi kích hoạt, nó sẽ chiếu ra hình ảnh ba chiều sống động, bao bọc hoàn toàn người sử dụng. Mặc dù chỉ là một trò lừa bịp thị giác, nhưng ở những nơi hệ thống an ninh không quá nghiêm ngặt, nó là một phương tiện hiệu quả để trốn tránh lính gác tuần tra hoặc camera."
+    },
+    "Băng đạn 7.62mm": {
+      "tags": [
+        "Đạn dược",
+        "T1",
+        "Đạn thực"
+      ],
+      "stackCount": 3,
+      "tier": "T1",
+      "effects": "Bổ sung 30 viên đạn cho các vũ khí tương thích cỡ nòng 7.62mm. Tương thích với các loại súng trường tiêu chuẩn của Hợp chúng quốc như AC-74.",
+      "description": "Một băng đạn cong làm từ polymer màu xám đậm, mặt bên in số lô sản xuất và biểu tượng ngôi sao năm cánh của Hợp chúng quốc bằng khuôn tô màu trắng. Gia công chắc chắn, có thể chịu được thử thách của môi trường khắc nghiệt."
+    },
+    "Băng đạn 12.7mm": {
+      "tags": [
+        "Đạn dược",
+        "T1",
+        "Đạn thực",
+        "Điện từ"
+      ],
+      "stackCount": 3,
+      "tier": "T1",
+      "effects": "Bổ sung 10 viên đạn lõi sắt đặc chủng cho các vũ khí tương thích cỡ nòng 12.7mm (như EMR-10).",
+      "description": "Một băng đạn thẳng, nặng nề, làm từ kim loại mờ màu đen. Phần hạt nổ của mỗi viên đạn đều có các cổng năng lượng siêu nhỏ, dùng để liên kết với hệ thống phát hỏa của súng trường điện từ. Sản phẩm của Đế quốc, ngay cả đạn dược cũng toát lên sự tinh tế."
+    },
+    "Băng đạn trống Shotgun cỡ 12": {
+      "tags": [
+        "Đạn dược",
+        "T1",
+        "Đạn thực"
+      ],
+      "stackCount": 3,
+      "tier": "T1",
+      "effects": "Bổ sung 20 viên đạn đa năng cho các vũ khí tương thích cỡ 12 (như FSR-2000).",
+      "description": "Một băng đạn trống dày dặn, vỏ ngoài bán trong suốt có thể nhìn thấy các vỏ đạn shotgun màu đồng xếp ngay ngắn bên trong. Đây là một trong những vật tư bị tiêu hao nhiều nhất trên tiền tuyến của Liên bang, đơn giản, thô bạo và hiệu quả."
+    },
+    "Ống tiêm trị liệu cấp tốc 'Schmitt'": {
+      "tags": [
+        "Y tế",
+        "T2",
+        "Vật phẩm tiêu hao"
+      ],
+      "stackCount": 5,
+      "tier": "T2",
+      "effects": "Sử dụng: Tiêu hao một lớp cộng dồn. Ngay lập tức hồi phục 250 điểm sinh mệnh. Tác dụng phụ: Trong 3 dt tiếp theo, tốc độ hồi phục năng lượng giảm 50%.",
+      "description": "Sản phẩm sơ cứu dân dụng do công ty dược phẩm thuộc Tập đoàn Giao dịch Liên sao (ICE) sản xuất. Trong ống tiêm trong suốt chứa đầy chất lỏng dạng gel màu xanh nhạt. Chỉ cần ấn nó vào vết thương hoặc bất kỳ vùng da trần nào, thiết bị sẽ tự động hoàn thành việc tiêm."
+    },
+    "Container máy bay không người lái 'Ong Bắp Cày'": {
+      "tags": [
+        "Vật phẩm tiêu hao",
+        "Bộ phận tàu chiến",
+        "T3"
+      ],
+      "stackCount": 5,
+      "tier": "T3",
+      "effects": "Sử dụng: Tiêu hao một lớp cộng dồn. Sử dụng tại bến tàu, nhà chứa máy bay, hoặc nhà chứa máy bay có thiết bị cần cẩu lớn. Bổ sung một máy bay không người lái tấn công hạng trung T3 'Ong Bắp Cày' cho nhà chứa máy bay của tàu mẹ máy bay không người lái. Thông số máy bay không người lái: 4300 tấn công/48000 HP.",
+      "description": "Một tủ kim loại có kích thước bằng container tiêu chuẩn, bề mặt sơn các sọc cảnh báo màu vàng đen và biểu tượng của Hợp chúng quốc Zemuria. Thùng được niêm phong, cần cánh tay robot cấp công nghiệp để bốc dỡ và triển khai."
+    },
+    "Container máy bay không người lái 'Ong Thợ'": {
+      "tags": [
+        "Vật phẩm tiêu hao",
+        "Bộ phận tàu chiến",
+        "T3"
+      ],
+      "stackCount": 5,
+      "tier": "T3",
+      "effects": "Sử dụng: Tiêu hao một lớp cộng dồn. Sử dụng tại bến tàu, nhà chứa máy bay, hoặc nhà chứa máy bay có thiết bị cần cẩu lớn. Bổ sung một máy bay không người lái kỹ thuật hạng trung T3 'Ong Thợ' cho nhà chứa máy bay của tàu mẹ máy bay không người lái. Máy bay không người lái kỹ thuật có thể được sử dụng để tăng tốc độ xây dựng hoặc tiến hành sửa chữa từ xa.",
+      "description": "Một tủ kim loại có cùng kích thước với container 'Ong Bắp Cày', nhưng toàn thân được sơn màu cam đại diện cho mục đích công nghiệp. Nó được thiết kế để bổ sung nhanh chóng các đơn vị tác nghiệp cho các tàu công nghiệp tiền tuyến, là biểu hiện cho năng lực công nghiệp mạnh mẽ của Zemuria."
+    },
+    "Đầu dò không gian tiêu chuẩn": {
+      "tags": [
+        "Vật phẩm tiêu hao",
+        "Trinh sát",
+        "T3"
+      ],
+      "stackCount": 10,
+      "tier": "T3",
+      "effects": "Sử dụng: Tiêu hao một lớp cộng dồn. Sau khi phóng, tiến hành quét sâu tinh vực được chỉ định, có thể tiết lộ thành phần khoáng chất của vành đai tiểu hành tinh, nguồn tín hiệu bất thường hoặc các tuyến đường không gian chưa biết. Mức độ chi tiết của kết quả quét phụ thuộc vào vị trí phóng và cường độ nhiễu của khu vực mục tiêu. Tiêu hao sau khi phóng.",
+      "description": "Một hình trụ suôn thả dài khoảng một mét, phần đầu trang bị nhiều mảng cảm biến. Sau khi được bắn ra từ bệ phóng đầu dò của tàu, nó sẽ thực hiện bước nhảy đến vị trí mục tiêu và bắt đầu thực hiện chương trình quét đã thiết lập sẵn."
+    },
+    "Hộp đạn dược đa năng": {
+      "tags": [
+        "Vật phẩm tiêu hao",
+        "Đạn dược",
+        "T4"
+      ],
+      "stackCount": 5,
+      "tier": "T4",
+      "effects": "Sử dụng: Tiêu hao vật phẩm. Bổ sung 1000 viên đạn tương ứng cho phi thuyền, bất kỳ loại đạn nào cũng được. Hiệu quả đối với tất cả các loại đạn từ T4 trở xuống. Rõ ràng, vật phẩm này không thể mang vác cá nhân, phải sử dụng cần cẩu.",
+      "description": "Một hộp kim loại màu đen khổng lồ, bốn góc có thanh cản gia cố và vòng cẩu. Trên thùng in logo đạn dược của một số thế lực khác nhau. Mở nó ra giống như mở chiếc hộp Pandora, luôn có thể tìm thấy thứ bạn cần, và cũng luôn có một số vật phẩm nguy hiểm hoàn toàn không quen biết."
+    },
+    "Khẩu phần ăn sấy thăng hoa vị trái cây": {
+      "tags": [
+        "Vật phẩm tiêu hao",
+        "Thức ăn",
+        "T1"
+      ],
+      "stackCount": 30,
+      "tier": "T1",
+      "effects": "Sử dụng: Tiêu hao một lớp cộng dồn. Bổ sung nước là có thể ăn, cung cấp dinh dưỡng cơ bản và lượng calo cho một người trong một ngày.",
+      "description": "Một khối nén chân không màu hồng to bằng viên gạch. Có thể cảm nhận được nỗi oán hận của dâu tây bên trong..."
+    },
+    "Khoang ngủ đông Người Quan Sát Sao": {
+      "tags": [
+        "Vật phẩm tiêu hao",
+        "Duy nhất",
+        "T0"
+      ],
+      "stackCount": 1,
+      "tier": "T0",
+      "effects": "Sau khi khởi động chương trình kích hoạt, có thể đánh thức Người Quan Sát Sao trong khoang ngủ đông. Cô ấy sẽ trở thành đồng hành, và cung cấp +5 giá trị kiểm định cơ động cơ bản cho chiến hạm. Buff này sẽ tăng lên cùng với sự gia tăng độ hảo cảm của cô ấy, tối đa lên tới +20. Một khi được kích hoạt, vật phẩm này sẽ bị tiêu hao. Cô ấy có mái tóc đen mắt đỏ, là một thiếu nữ dịu dàng, sau khi tỉnh lại sẽ yêu cầu người sử dụng đặt tên cho mình, sau đó hôn người sử dụng. Gia nhập dưới dạng nhân vật.",
+      "description": "“Tình yêu lẽ nào cũng phân biệt sang hèn sao!” Một khoang kim loại màu trắng hình quả trứng nhẵn bóng, bề mặt không có bất kỳ đường nối hay khe hở nào có thể nhìn thấy, chỉ có một bảng cảm ứng cảm ứng đang nhấp nháy ánh sáng xanh mờ ảo. Nó đến từ một dòng thời gian có các định luật vật lý hoàn toàn khác biệt, ở đó, việc di chuyển FTL cần phải giao cấu với một người nhân tạo đặc biệt được gọi là 'Người Quan Sát Sao' mới có thể hoàn thành, nhưng rõ ràng trong dòng thế giới này thì nó đã vô dụng. Khoang chứa lạnh lẽo, nhưng dường như có thể cảm nhận được một dấu hiệu sự sống yếu ớt và ấm áp bên trong. Cô ấy sẽ yêu người đầu tiên khởi động mình, đây là kết quả của quá trình lập trình gen."
+    },
+    "Áo giáp công nghệ Nexus 'Tuyệt Đối Phòng Vệ' [T0]": {
+      "tags": [
+        "Áo giáp",
+        "T0",
+        "Nexus",
+        "Phòng thủ",
+        "Duy nhất"
+      ],
+      "tier": "T0",
+      "requiredSkill": "engineering:0.5, psionics:0.3",
+      "resourceBonus": {
+        "maxHP": 5000,
+        "maxEnergy": 3000,
+        "energyRegen": 80,
+        "reactionSpeed": 10
+      },
+      "effects": "- Lớp giáp nano tự phục hồi: Hồi 80 HP mỗi lượt kể cả trong chiến đấu\n- Trường lực cá nhân: Miễn nhiễm hoàn toàn với đạn T1 và dưới\n- Hấp thụ năng lượng: 20% sát thương nhận vào chuyển thành NL hồi phục\n- Hỗ trợ vận động thần kinh: Tốc độ phản ứng +10, tự động né đòn ở tốc độ cận âm\n- [Môi trường] Chịu được chân không, bức xạ cấp cao và áp suất cực trị",
+      "description": "Bộ giáp hợp nhất được chế tạo từ hợp kim Nexus thế hệ thứ bảy — vật liệu chỉ tồn tại khi được neo bởi trường lực lượng tử. Khi mặc vào, người dùng cảm nhận được từng sợi nano thâm nhập vào da, dệt mình thành một phần của bộ giáp. Ranh giới giữa người và máy trở nên mơ hồ."
+    },
+    "Vũ khí hư không 'Giọt Lệ Hư Không' [T0]": {
+      "tags": [
+        "Vũ khí cầm tay",
+        "T0",
+        "Duy nhất",
+        "Hư không",
+        "Cận chiến"
+      ],
+      "tier": "T0",
+      "requiredSkill": "psionics:0.7, control:0.3",
+      "resourceBonus": {
+        "maxEnergy": 2000,
+        "energyRegen": 50
+      },
+      "effects": "- Sát thương cận chiến: 1 × 500,000 (Hư vô — bỏ qua 100% mọi giáp và khiên vật lý)\n- Sát thương tầm xa: Ném ra 3 lưỡi hư không, mỗi lưỡi gây 150,000 (tầm 30m)\n- Cộng hưởng linh năng: Mỗi cấp Linh năng nhân thêm 30% sát thương\n- Bị động: Hấp thụ linh hồn kẻ bị hạ — hồi 500 NL mỗi mục tiêu\n- [Cảnh báo] Vũ khí này có ý thức — nó sẽ thử nghiệm ý chí người cầm",
+      "description": "Một giọt vật chất hư không ổn định được giam giữ trong trường lực cá nhân, tự định hình thành lưỡi dao, kiếm, hay bất cứ thứ gì người cầm tưởng tượng. Không ai biết nó từ đâu đến. Người tìm thấy nó chỉ nói: 'nó đang chờ ai đó xứng đáng.'"
+    },
+    "Thiết bị thần kinh giao thoa 'Lõi Minh Triết' [T0]": {
+      "tags": [
+        "Thiết bị",
+        "T0",
+        "Tăng cường thần kinh",
+        "Khoa học",
+        "Cắm ghép"
+      ],
+      "tier": "T0",
+      "requiredSkill": "science:0.5, engineering:0.3, psionics:0.2",
+      "resourceBonus": {
+        "maxEnergy": 5000,
+        "energyRegen": 120,
+        "reactionSpeed": 15
+      },
+      "effects": "- Xử lý song song: Có thể thực hiện hai hành động trong một lượt\n- Dự đoán thần kinh: Biết trước kết quả của hành động trong 3 giây tương lai\n- Kết nối thiết bị: Điều khiển tâm trí bất kỳ thiết bị điện tử trong phạm vi 200m\n- Nén ký ức: Tiếp nhận và lưu trữ kỹ năng từ người khác qua tiếp xúc vật lý\n- Tổng cộng kinh nghiệm tất cả lĩnh vực tăng 20% vĩnh viễn",
+      "description": "Một chip lượng tử bằng ngón tay cái được cấy trực tiếp vào vỏ não. Sau khi cài đặt, người dùng báo cáo thấy mọi thứ chuyển động chậm lại, thấy các phương trình toán học trong từng đường bay của đạn, và đôi khi — nghe thấy suy nghĩ của người xung quanh."
+    },
+    "Bộ dụng cụ chiến trường 'Kẻ Sống Sót Tối Thượng' [T0]": {
+      "tags": [
+        "Công cụ",
+        "T0",
+        "Sinh tồn",
+        "Đa năng",
+        "Duy nhất"
+      ],
+      "tier": "T0",
+      "requiredSkill": "engineering:0.4, detection:0.3, control:0.3",
+      "resourceBonus": {
+        "maxHP": 2000,
+        "maxEnergy": 1500,
+        "energyRegen": 40,
+        "reactionSpeed": 5
+      },
+      "effects": "- Thiết bị y tế T0: Hồi 40 HP mỗi lượt và hồi phục ngay lập tức mọi trạng thái bất lợi\n- Máy in nano: Chế tạo bất kỳ vật phẩm T2 trở xuống từ vật liệu thô\n- Màn chắn EMP cá nhân: Miễn nhiễm với mọi tấn công điện từ\n- Bản đồ chiến trường thực: Hiển thị vị trí tất cả thực thể trong 500m theo thời gian thực\n- Thực phẩm tổng hợp: Tự tạo ra đủ dinh dưỡng duy trì sự sống vô thời hạn",
+      "description": "Không phải một thứ — mà là một hệ sinh thái công cụ thu nhỏ vào kích thước ba lô. Người thiết kế nó từng nói: 'Tôi muốn tạo ra thứ giúp một người sống sót ở nơi mà cả quân đội không thể.'"
+    },
+    "Áo giáp chiến binh cơ giới 'Thiết Vệ' loại nặng [T3]": {
+      "tags": [
+        "Áo giáp",
+        "T3",
+        "Cơ giới",
+        "Đế quốc Thất Tinh",
+        "Phòng thủ"
+      ],
+      "tier": "T3",
+      "requiredSkill": "engineering:0.5, control:0.3, gunnery:0.2",
+      "resourceBonus": {
+        "maxHP": 2000,
+        "maxEnergy": 800,
+        "energyRegen": 20,
+        "reactionSpeed": -2
+      },
+      "effects": "- Khung cơ giới tăng lực: Sức mạnh vật lý x8, có thể di chuyển mang 500kg trang bị\n- Giáp phản ứng tích hợp: Giảm 40% sát thương đạn thực\n- Vũ khí tích hợp: Cánh tay phải trang bị pháo minigun 20mm\n- Hệ thống nhắm bắn tự động: Tự động nhắm vào mục tiêu đã khóa, bù lag cổ tay\n- [Nhược điểm] Tốc độ phản ứng -2 do trọng lượng. Kích thước lớn — không vào được cửa bình thường",
+      "description": "Bộ giáp chiến đấu cơ giới hạng nặng tiêu chuẩn của Vệ binh Đế quốc. Cao 2.8m, nặng 1.8 tấn, trông như một bức tường thép biết đi. Những ai mặc nó thường nói cảm giác không khác gì lái một cỗ máy — vì thực ra đó đúng là điều đang xảy ra."
+    },
+    "Đai năng lượng chiến đấu 'Xung Phong' [T3]": {
+      "tags": [
+        "Phụ kiện",
+        "T3",
+        "Năng lượng",
+        "Zemuria",
+        "Chiến đấu"
+      ],
+      "tier": "T3",
+      "requiredSkill": "control:0.5, engineering:0.3, gunnery:0.2",
+      "resourceBonus": {
+        "maxEnergy": 2000,
+        "energyRegen": 60,
+        "reactionSpeed": 5
+      },
+      "effects": "- Tích tụ năng lượng: Khi không sử dụng NL trong 2 lượt, lượt tiếp theo xả ra toàn bộ tích lũy (+300% sát thương)\n- Trường lực cá nhân mini: Phòng thủ 1500 HP trước khi tính vào người (hồi hết giữa lượt)\n- Tăng tốc phản ứng: Reactionspeed +5 khi NL trên 80%\n- Nổ NL khẩn cấp: Tiêu hao 1000 NL để bắn ra sóng xung kích, đẩy lùi mọi thứ trong 10m",
+      "description": "Thiết kế ban đầu dành cho vận động viên thể thao cực hạn của Zemuria, sau đó được quân đội mua lại và nâng cấp. Người mặc nó chạy nhanh hơn, phản ứng nhanh hơn — và ngã đau hơn rất nhiều."
+    },
+    "Súng ngắn linh năng 'Hồn Tiễn' Rosaria [T3]": {
+      "tags": [
+        "Vũ khí cầm tay",
+        "T3",
+        "Linh năng",
+        "Rosaria",
+        "Tầm trung"
+      ],
+      "tier": "T3",
+      "requiredSkill": "psionics:0.7, gunnery:0.3",
+      "resourceBonus": {
+        "maxEnergy": 500,
+        "energyRegen": 15
+      },
+      "effects": "- Sát thương: 1 × 8,000 (Linh năng) mỗi phát, không thể bị chặn bởi giáp vật lý\n- Tầm bắn: 80m — đạn tự truy đuổi mục tiêu\n- Liên kết tâm thức: Khi nhắm bắn, thấy qua mắt mục tiêu trong 1 giây\n- Nạp từ NL: Không cần đạn — tiêu hao 20 NL mỗi phát\n- Cộng hưởng: +30% sát thương cho mỗi cấp Linh năng",
+      "description": "Không phải súng theo nghĩa thông thường — đây là thiết bị khuếch đại linh năng được định hình để bắn ra projectile tinh thần. Các đầu đạn không nhìn thấy được bằng mắt thường — chúng chỉ hiện hữu khi va chạm."
+    },
+    "Máy phân tích trận địa tích hợp AI 'Oracle' [T3]": {
+      "tags": [
+        "Công cụ",
+        "T3",
+        "AI",
+        "Trinh sát",
+        "Chiến thuật"
+      ],
+      "tier": "T3",
+      "requiredSkill": "detection:0.5, science:0.3, control:0.2",
+      "resourceBonus": {
+        "maxEnergy": 300,
+        "energyRegen": 10,
+        "reactionSpeed": 3
+      },
+      "effects": "- Phân tích thời gian thực: Tính toán xác suất thành công của mọi hành động trong 0.1 giây\n- Nhận diện điểm yếu: Tiết lộ điểm yếu của mục tiêu — tăng 20% sát thương lên điểm đó\n- Cảnh báo nguy hiểm: Cảnh báo 2 giây trước mọi tấn công tầm xa\n- Điều phối hạm đội: Chia sẻ dữ liệu phân tích với toàn đội trong 500m\n- Học máy: Sau mỗi trận, độ chính xác phân tích tăng 2% (tối đa +40%)",
+      "description": "Kính đội đầu mỏng như tờ giấy tích hợp siêu máy tính AI chiến thuật. Oracle đã được huấn luyện trên 50 triệu trận chiến lịch sử — nó thường biết kẻ địch sẽ làm gì trước khi họ quyết định."
+    },
+    "Áo giáp chiến thuật 'Bóng Đêm' [T2]": {
+      "tags": [
+        "Áo giáp",
+        "T2",
+        "Tàng hình",
+        "ICE",
+        "Chiến thuật"
+      ],
+      "tier": "T2",
+      "requiredSkill": "control:0.5, detection:0.3",
+      "resourceBonus": {
+        "maxHP": 300,
+        "maxEnergy": 400,
+        "energyRegen": 8,
+        "reactionSpeed": 4
+      },
+      "effects": "- Vật liệu hấp thụ ánh sáng: Giảm 60% khả năng bị phát hiện bằng mắt thường\n- Tản nhiệt chủ động: Giảm 80% chữ ký nhiệt — khó bị tên lửa nhiệt truy đuổi\n- Đệm âm thanh: Không phát ra âm thanh khi di chuyển\n- Bộ khuếch đại vận động: Tốc độ di chuyển +30% so với bình thường",
+      "description": "Bộ áo chiến thuật tiêu chuẩn của đặc vụ ICE hạng Alpha. Được thiết kế để hoạt động trong bóng tối — nghĩa đen và nghĩa bóng."
+    },
+    "Súng máy hạng nhẹ 'Tia Chớp' điện từ [T2]": {
+      "tags": [
+        "Vũ khí cầm tay",
+        "T2",
+        "Điện từ",
+        "Tự động",
+        "Hỏa lực cao"
+      ],
+      "tier": "T2",
+      "requiredSkill": "gunnery:0.6, control:0.2",
+      "resourceBonus": {
+        "maxEnergy": 200,
+        "energyRegen": 5
+      },
+      "effects": "- Sát thương: 20 × 800 (Điện từ) mỗi giây\n- Tầm bắn hiệu quả: 150m\n- EMP nhẹ: Mỗi phát bắn trúng có 15% làm tê liệt thiết bị điện tử 0.5 giây\n- Nạp pin: Tiêu hao pin điện, tương thích với pin tiêu chuẩn T1-T3\n- Chế độ bắn tỉa: Chuyển sang chế độ bắn từng phát, sát thương x3 mỗi phát",
+      "description": "Súng máy điện từ cỡ nhỏ có thể cầm một tay. Không phù hợp cho chiến đấu lâu dài vì tiêu hao pin nhanh — nhưng trong vài giây đầu, không có gì ngăn được cơn mưa đạn điện tử."
+    },
+    "Bộ y tế chiến trường đa năng 'Sống Dai' [T2]": {
+      "tags": [
+        "Y tế",
+        "T2",
+        "Hồi phục",
+        "Tiêu hao",
+        "Đa năng"
+      ],
+      "tier": "T2",
+      "requiredSkill": "science:0.5",
+      "resourceBonus": {},
+      "effects": "- Dùng ngay: Hồi 800 HP tức thì\n- Kháng sinh phổ rộng: Xóa mọi trạng thái độc, bệnh, nhiễm trùng\n- Nano băng bó: Cầm máu vết thương hở trong 10 giây\n- Liều kích thích: Tạm thời tăng HP tối đa +500 và hồi phục +30/lượt trong 5 lượt\n- [Tiêu hao] Mỗi bộ sử dụng được 3 lần",
+      "description": "Hộp y tế thế hệ mới với ống tiêm nano tự định liều, băng bó thông minh và dược phẩm tổng hợp phổ rộng. Một bộ đủ để giữ người lính tiếp tục chiến đấu khi người bình thường đã ngã xuống từ lâu."
+    },
+    "Kính hiển thị đa chức năng HUD 'Tinh Anh' [T2]": {
+      "tags": [
+        "Phụ kiện",
+        "T2",
+        "Thiết bị điện tử",
+        "Trinh sát",
+        "Thông tin"
+      ],
+      "tier": "T2",
+      "requiredSkill": "detection:0.4, control:0.2",
+      "resourceBonus": {
+        "maxEnergy": 150,
+        "reactionSpeed": 2
+      },
+      "effects": "- HUD chiến đấu: Hiển thị thông tin mục tiêu, khoảng cách, ước tính HP\n- Nhìn xuyên vật cản: Thấy được nhiệt ký và chuyển động qua tường mỏng\n- Zoom quang học x20: Nhìn rõ mục tiêu ở cự ly 2km\n- Nhận diện đe dọa: Tự động đánh dấu mục tiêu nguy hiểm bằng màu đỏ\n- Kết nối thiết bị: Đồng bộ dữ liệu với súng tích hợp chip — tăng 10% độ chính xác",
+      "description": "Kính chiến thuật hai mắt mỏng bằng kính râm thông thường. Khi bật lên, thế giới trở thành một màn hình thông tin — mọi thứ đều được phân tích, phân loại và ưu tiên."
+    },
+    "Vòng thắt lưng công cụ đặc vụ 'Bách Bảo Nang' [T2]": {
+      "tags": [
+        "Công cụ",
+        "T2",
+        "Đặc vụ",
+        "ICE",
+        "Đa năng"
+      ],
+      "tier": "T2",
+      "requiredSkill": "control:0.4, engineering:0.2",
+      "resourceBonus": {
+        "maxEnergy": 250,
+        "energyRegen": 6
+      },
+      "effects": "- Dây leo từ tính: Bắn móc từ tính lên đến 50m, leo tường hoặc vượt vực\n- Bộ phá khóa điện tử: Bẻ khóa hầu hết hệ thống an ninh T2 trở xuống trong 30 giây\n- Lựu đạn EMP mini (x3): Phát nổ 5m, vô hiệu hóa thiết bị điện trong 30 giây\n- Camera trinh thám không dây (x3): Ném ra, phát tín hiệu trực tiếp về HUD\n- Thiết bị gây nhiễu tín hiệu: Tạo vùng nhiễu sóng bán kính 20m",
+      "description": "Bộ dụng cụ đặc vụ đầy đủ thu gọn trong một vòng thắt lưng trông vô hại. Đây là trang bị tiêu chuẩn của đặc vụ ICE hạng B — những người giải quyết vấn đề mà không ai được biết là có vấn đề."
+    },
+    "Áo lót chống đạn 'Bình An' cấp dân sự [T1]": {
+      "tags": [
+        "Áo giáp",
+        "T1",
+        "Dân sự",
+        "Phổ thông",
+        "Nhẹ"
+      ],
+      "tier": "T1",
+      "requiredSkill": "",
+      "resourceBonus": {
+        "maxHP": 80,
+        "reactionSpeed": 0
+      },
+      "effects": "- Chống đạn cơ bản: Giảm 20% sát thương đạn thực T1\n- Nhẹ và thoải mái: Không cản trở vận động, mặc cả ngày được\n- [Giới hạn] Không có tác dụng với vũ khí năng lượng hoặc đạn T2+",
+      "description": "Loại áo giáp phổ biến nhất trong các thành phố đông dân. Giá rẻ, nhẹ, không gây chú ý. Không cứu bạn khỏi viên đạn xuyên giáp — nhưng giúp bạn sống sót qua một cuộc đấu súng bình thường."
+    },
+    "Dao chiến thuật đa năng 'Sói Xám' [T1]": {
+      "tags": [
+        "Vũ khí cầm tay",
+        "T1",
+        "Cận chiến",
+        "Phổ thông",
+        "Đa năng"
+      ],
+      "tier": "T1",
+      "requiredSkill": "control:0.2",
+      "resourceBonus": {},
+      "effects": "- Sát thương: 1 × 200 (Vật lý/Cắt)\n- Lưỡi hợp kim: Không gỉ, giữ sắc bén rất lâu, cắt được cáp và dây thừng\n- Đa năng: Dùng như công cụ sinh tồn — khai thác, nấu ăn, xây lán\n- Ném được: Trọng tâm thiết kế tốt cho ném xa đến 15m với độ chính xác khá",
+      "description": "Dao chiến thuật gấp cỡ bàn tay, lưỡi 18cm từ thép hợp kim titan. Không hoành tráng, không có chip điện tử, không phát sáng. Chỉ là một con dao tốt — và đôi khi đó là tất cả những gì bạn cần."
+    },
+    "Bộ khẩu phần ăn chiến trường 7 ngày [T1]": {
+      "tags": [
+        "Vật phẩm tiêu hao",
+        "Thức ăn",
+        "T1",
+        "Sinh tồn"
+      ],
+      "tier": "T1",
+      "requiredSkill": "",
+      "resourceBonus": {},
+      "effects": "- Đủ dinh dưỡng duy trì chiến đấu trong 7 ngày không cần nguồn thực phẩm khác\n- Dùng ngay: Hồi 50 HP và xóa trạng thái đói\n- Dạng nén — nhỏ gọn bằng nắm tay nhưng đủ calorie cho cả ngày\n- [Tiêu hao] Dùng hết sau 7 ngày hoặc 7 lần sử dụng",
+      "description": "Bộ lương khô chiến trường tiêu chuẩn. Vị như bìa cứng — nhưng sẽ không ai phàn nàn về vị khi đã ba ngày không ăn gì."
+    },
+    "Bộ công cụ sửa chữa đa năng cơ bản [T1]": {
+      "tags": [
+        "Công cụ",
+        "T1",
+        "Kỹ thuật",
+        "Phổ thông",
+        "Sửa chữa"
+      ],
+      "tier": "T1",
+      "requiredSkill": "engineering:0.2",
+      "resourceBonus": {},
+      "effects": "- Sửa chữa thiết bị T1-T2: Khắc phục 80% hỏng hóc cơ học thông thường\n- Hàn điện nhanh: Mối hàn chắc đủ dùng trong tình huống khẩn cấp\n- Đa năng: Tua vít, kìm, cờ lê, đồng hồ đo điện — tất cả trong một",
+      "description": "Bộ công cụ cơ bản mà bất cứ kỹ sư nào cũng mang theo. Không fancy, không có AI, không tự động hóa. Chỉ là công cụ tốt — đủ để giữ mọi thứ chạy khi mọi thứ muốn hỏng."
+    },
+    "Thiết bị liên lạc cầm tay an toàn 'Thì Thầm' [T1]": {
+      "tags": [
+        "Thiết bị",
+        "T1",
+        "Liên lạc",
+        "Phổ thông",
+        "Mã hóa"
+      ],
+      "tier": "T1",
+      "requiredSkill": "",
+      "resourceBonus": {
+        "maxEnergy": 50
+      },
+      "effects": "- Mã hóa quân sự: Tín hiệu khó nghe lén và giải mã\n- Tầm phủ sóng: 500km trong điều kiện bình thường, có thể relay qua vệ tinh\n- Pin lâu: 72 giờ liên tục hoặc 30 ngày chế độ chờ\n- Tín hiệu khẩn cấp: Phát tín hiệu vị trí khẩn cấp nếu cần",
+      "description": "Thiết bị liên lạc nhỏ bằng hộp diêm, cứng như đá và chịu được ngâm nước. Không internet, không app, không giao diện đẹp. Chỉ gọi được và nhận được — nhưng luôn gọi được và nhận được."
+    },
+    "Đèn pin chiến thuật cường độ cao 'Mặt Trời Bỏ Túi' [T1]": {
+      "tags": [
+        "Công cụ",
+        "T1",
+        "Ánh sáng",
+        "Phổ thông"
+      ],
+      "tier": "T1",
+      "requiredSkill": "",
+      "resourceBonus": {},
+      "effects": "- Cường độ ánh sáng: 10,000 lumen — đủ để tạm thời làm mù người nhìn thẳng\n- Chế độ tác chiến: Nhấp nháy tần số cao gây mất phương hướng trong 2-3 giây\n- Chế độ tín hiệu: Phát tín hiệu Morse, dễ nhận biết từ xa\n- Pin: 8 giờ liên tục hoặc 20 giờ chế độ thấp",
+      "description": "Đèn pin chiến thuật nhỏ gọn nhưng cực kỳ sáng. Người dùng đầu tiên gọi nó là 'mang mặt trời trong túi' — tên gọi đó mắc lại từ đó."
+    }
+  },
+  "Kỹ năng tùy chọn": {
+    "Bước nhảy pha Linh Năng": {
+      "energyCost": 25,
+      "requiredSkill": "psionics:0.8, science:0.2",
+      "tier": "T2",
+      "effects": "Di chuyển tức thời đến bất kỳ vị trí nào trong tầm nhìn 100 mét. Không thể xuyên qua khiên hoặc các bức tường kiên cố. Giá trị hiệu lực của đòn tấn công tiếp theo sau khi sử dụng +10.",
+      "description": "Một kỹ xảo ứng dụng không gian cơ bản, thường được các thị tùng linh năng của Rosaria sử dụng để cơ động trên chiến trường. Bằng cách chiếu nhanh khối lượng của bản thân vào á không gian, thực hiện di chuyển tức thời trong cự ly ngắn. Mặc dù kèm theo cảm giác chóng mặt nhẹ, nhưng đây là một phương tiện áp sát cực kỳ chí mạng trong các cuộc chiến tầm gần."
+    },
+    "Trực giác Công nghiệp": {
+      "energyCost": 0,
+      "requiredSkill": "engineering:0.7, science:0.3",
+      "tier": "T1",
+      "effects": "Kỹ năng bị động. Khi tiến hành bất kỳ việc 【Chế tạo thông thường】 hoặc 【Chế tạo linh kiện】 nào, Sức mạnh công nghiệp (IP) được cung cấp sẽ tăng thêm 5 điểm. Đồng thời, tỷ lệ hao hụt vật liệu chế tạo giảm 5%.",
+      "description": "Bạn nắm rõ các giao thức công nghiệp tiêu chuẩn của Zemuria trong lòng bàn tay. Trong mắt bạn, máy móc không còn là những bộ phận lạnh lẽo, mà là một tổng thể hữu cơ. Bạn luôn có thể tìm ra lộ trình lắp ráp hiệu quả nhất theo trực giác, và chắt mót từng chiếc đinh ốc có thể sử dụng từ trong đống phế liệu."
+    },
+    "Phục hồi Sinh thể": {
+      "energyCost": 40,
+      "requiredSkill": "psionics:1.0",
+      "tier": "T2",
+      "effects": "Dẫn dắt 1dt, phục hồi 150 điểm sinh mệnh cho mục tiêu (hoặc bản thân) đã chạm vào, và xóa bỏ một trạng thái sinh lý tiêu cực cấp T1 (ví dụ: chảy máu nhẹ, choáng váng).",
+      "description": "Dẫn dắt một lượng nguyên khí vi lượng trong môi trường xung quanh kích thích ty thể của tế bào, đẩy nhanh quá trình chữa lành tự nhiên. Đây là một phương pháp sơ cứu nhẹ nhàng nhưng hiệu quả, ở các tinh khu biên giới thiếu thốn y tế, những người nắm giữ kỹ năng này thường rất được kính trọng."
+    },
+    "Ngắm bắn Ổn định": {
+      "energyCost": 15,
+      "requiredSkill": "gunnery:0.6, detection:0.4",
+      "tier": "T1",
+      "effects": "Sau khi kích hoạt, giá trị hiệu lực tấn công tầm xa bằng tay tiếp theo trong dt này sẽ nhận được kiểm định 【Ưu thế】 (Đổ 2 xúc xắc lấy số lớn), và bỏ qua 5 điểm giảm sát thương giáp (DR) của mục tiêu. Không có tác dụng đối với tàu chiến.",
+      "description": "Phân tích thời gian thực các điểm yếu của áo giáp và quỹ đạo di chuyển của mục tiêu. Trong khoảnh khắc khai hỏa, thế giới dường như chậm lại, hồng tâm khóa chặt vào tử huyệt của kẻ thù."
+    },
+    "Hacker": {
+      "energyCost": 30,
+      "requiredSkill": "control:0.8, engineering:0.2",
+      "tier": "T2",
+      "effects": "Hack từ xa vào một thiết bị điện tử cấp T2 trở xuống trong tầm nhìn (ví dụ: tháp pháo, khóa cửa, máy bay không người lái), khởi xướng một cuộc tấn công kiểm soát so với phòng thủ kiểm soát + trinh sát. Sau khi kiểm định thành công, có thể làm nó tê liệt trong 2 dt, hoặc tạm thời tước đoạt quyền kiểm soát của nó trong 1 dt.",
+      "description": "Một phương thức hack thô bạo nhưng rất phổ biến trong vùng xám của ICE. Thay vì nói là bẻ khóa, đúng hơn là ép bộ xử lý của mục tiêu quá tải khởi động lại hoặc chuyển sang chế độ gỡ lỗi, từ đó lấy được quyền hạn tạm thời."
+    },
+    "Khai Thức Linh Năng [T0 - Bẩm sinh]": {
+      "tier": "T0",
+      "requiredSkill": "psionics:0.5",
+      "energyCost": 0,
+      "effects": "- Bị động vĩnh viễn: Tất cả kỹ năng Linh năng không tiêu hao NL\n- Nhận thức không gian: Cảm nhận mọi thực thể sống trong phạm vi 50m kể cả khi bịt mắt\n- Kháng tâm trí: Miễn nhiễm với kiểm soát tâm thần và can nhiễu tinh thần\n- Tiến hóa bẩm sinh: Mỗi lần thăng cấp Linh năng, tự động nhận thêm 1 kỹ năng bị động ngẫu nhiên\n- [Yêu cầu] Chỉ có thể học nếu Linh năng ≥ 0.5 — không thể truyền đạt cho người khác",
+      "description": "Không phải kỹ thuật — đây là trạng thái tồn tại. Người đạt Khai Thức không cần suy nghĩ để dùng Linh năng — nó chảy tự nhiên như hơi thở. Thường xảy ra tự phát sau một sự kiện đau thương hoặc khoảnh khắc ngộ đạo."
+    },
+    "Siêu ý thức chiến đấu 'Vô Ngã' [T0]": {
+      "tier": "T0",
+      "requiredSkill": "control:0.6, detection:0.4",
+      "energyCost": 100,
+      "effects": "- Kích hoạt: Trong 5 lượt, người dùng bước vào trạng thái Vô Ngã\n- Trong trạng thái: Tốc độ phản ứng +25, không cảm nhận đau, né được mọi đòn T2 trở xuống\n- Tầm nhìn mở rộng: Xử lý mọi thông tin cảm giác trong 360 độ đồng thời\n- Dự đoán chuyển động: Biết chính xác kẻ địch sẽ di chuyển đâu 1 giây trước\n- [Hậu quả] Sau khi kết thúc: mệt mỏi cực độ, -10 phản ứng trong 3 lượt tiếp",
+      "description": "Kỹ thuật thiền chiến đấu cổ đại từ Vương quốc Aethelian, đòi hỏi nhiều năm luyện tập để đạt được. Người đạt trạng thái này mô tả nó như 'thấy tất cả mà không thấy gì — cơ thể tự chiến đấu trong khi tâm trí đứng ngoài quan sát.'"
+    },
+    "Tổng hợp công nghệ thực địa 'MacGyver' [T3]": {
+      "tier": "T3",
+      "requiredSkill": "engineering:0.8, science:0.2",
+      "energyCost": 20,
+      "effects": "- Chế tạo khẩn cấp: Tạo bất kỳ thiết bị T2 trở xuống từ phế liệu xung quanh trong 2 lượt\n- Sửa chữa nhanh: Phục hồi 50% chức năng mọi thiết bị hỏng trong 1 lượt\n- Vũ khí tạm: Chế tạo vũ khí T1 từ đồ vật thông thường (ghế, ống nước, cáp điện)\n- Bẫy chiến thuật: Thiết lập bẫy T2 từ vật liệu thô trong 1 lượt\n- Phân tích cấu trúc: Nhìn qua bất kỳ thiết bị nào, hiểu cách hoạt động và điểm yếu",
+      "description": "Không phải ai cũng có thiết bị hoàn hảo khi cần. Kỹ năng này là câu trả lời cho tình huống đó — biến đống phế liệu thành công cụ, và công cụ thành vũ khí. Kinh nghiệm thực địa không thể học từ sách."
+    },
+    "Phân tích chiến thuật tức thời [T3]": {
+      "tier": "T3",
+      "requiredSkill": "detection:0.5, control:0.3, science:0.2",
+      "energyCost": 35,
+      "effects": "- Đọc trận địa: Trong 1 lượt, phân tích toàn bộ bố trí địch, điểm mạnh/yếu và lộ trình thoát\n- Chỉ huy: Tăng 15% hiệu quả chiến đấu của tất cả đồng đội trong phạm vi 200m\n- Phản phục kích: Nhận biết phục kích trước khi xảy ra\n- Kế hoạch dự phòng: Luôn có phương án B — nếu kế hoạch thất bại, ngay lập tức chuyển sang",
+      "description": "Khả năng xử lý thông tin chiến trường ở cấp độ chỉ huy trong thời gian thực. Người có kỹ năng này không phải lúc nào cũng chiến đấu giỏi nhất — nhưng đội của họ luôn chiến đấu tốt hơn đáng kể."
+    },
+    "Bắn tỉa cực cự ly 'Mắt Thần' [T2]": {
+      "tier": "T2",
+      "requiredSkill": "gunnery:0.7, detection:0.3",
+      "energyCost": 25,
+      "effects": "- Phạm vi bắn tỉa hiệu quả: Tăng gấp đôi, lên đến 4km với súng trường thích hợp\n- Điều chỉnh gió và trọng lực: Tự động tính toán mọi yếu tố môi trường\n- Nhịp tim: Tự động làm chậm nhịp tim khi nhắm bắn — ổn định đường đạn\n- Phát đầu tiên: Phát bắn đầu tiên sau khi ẩn nấp luôn gây sát thương x2",
+      "description": "Kỹ thuật bắn tỉa cự ly cực đại. Ở khoảng cách này, không phải đạn bay đến mục tiêu — mục tiêu đơn giản là đi vào nơi đạn đang ở."
+    },
+    "Xâm nhập mạng thần kinh 'Ảo Ảnh Số' [T2]": {
+      "tier": "T2",
+      "requiredSkill": "control:0.6, engineering:0.2, psionics:0.2",
+      "energyCost": 40,
+      "effects": "- Hack từ xa: Xâm nhập hệ thống điện tử trong phạm vi 100m không cần tiếp xúc\n- Tạo ảo ảnh số: Làm camera và cảm biến thấy những gì bạn muốn chúng thấy\n- Kiểm soát thiết bị: Chiếm quyền điều khiển drone, tháp súng, thang máy, cửa\n- Xóa dấu vết: Xóa sạch bằng chứng tồn tại của bạn trong hệ thống",
+      "description": "Kỹ thuật xâm nhập số kết hợp hack và linh năng. Người dùng không chỉ phá khóa hệ thống — họ trở thành hệ thống, nhìn qua camera của nó, nghe qua mic của nó, và nói dối qua dữ liệu của nó."
+    },
+    "Chuyên gia sinh tồn hoang dã không gian [T1]": {
+      "tier": "T1",
+      "requiredSkill": "detection:0.3, engineering:0.2",
+      "energyCost": 0,
+      "effects": "- Bị động: Giảm 50% tiêu hao tài nguyên (thức ăn, không khí, nhiên liệu) khi hoạt động ngoài trạm\n- Định hướng tự nhiên: Không cần GPS — định hướng bằng sao và từ trường\n- Tìm kiếm tài nguyên: Phát hiện nguồn nước, thực phẩm và vật liệu hữu ích trong môi trường lạ\n- Ẩn nấp: Ngụy trang trong môi trường tự nhiên — khó bị phát hiện bằng mắt thường",
+      "description": "Không học từ sách — học từ việc suýt chết nhiều lần ở những nơi không ai nên đến. Người có kỹ năng này không sợ bị lạc — họ coi đó là một cơ hội khám phá."
+    },
+    "Sơ cứu chiến trường tiêu chuẩn [T1]": {
+      "tier": "T1",
+      "requiredSkill": "science:0.3",
+      "energyCost": 10,
+      "effects": "- Cầm máu: Ngăn chảy máu và ổn định vết thương nghiêm trọng trong 30 giây\n- Hồi phục: Hồi 200 HP cho bản thân hoặc đồng đội (không thể tự hồi khi bất tỉnh)\n- Chống sốc: Ngăn chặn trạng thái sốc chấn thương sau thiệt hại lớn\n- Dùng vật liệu xung quanh: Không cần bộ y tế — dùng vải, băng, que",
+      "description": "Kiến thức y tế cơ bản đủ để giữ người sống đến khi có bác sĩ thực sự. Không fancy, không phức tạp — chỉ là biết đặt tay đúng chỗ và giữ bình tĩnh."
+    }
+  },
+  "Tàu chiến tùy chọn": {
+    "Hộ vệ hạm lớp Thần Hi": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Hộ vệ hạm",
+        "Đế quốc Thất Tinh"
+      ],
+      "tier": "T1",
+      "shields": 45000.0,
+      "shieldDR": 5,
+      "maxShields": 45000,
+      "armor": 12000.0,
+      "armorDR": 150,
+      "maxArmor": 12000,
+      "hull": 28000.0,
+      "hullDR": 100,
+      "maxHull": 28000,
+      "detectionRange": "5.0 AU",
+      "energy": 1000.0,
+      "maxEnergy": 1000.0,
+      "energyRegen": 10.0,
+      "maneuver": 12,
+      "requiredSkill": "gunnery:0.4, engineering:0.3, control:0.3",
+      "effects": "Trận liệt khiên đế quốc: Tốc độ hồi khiên +1%x Cấp kỹ thuật。\nHiệu chuẩn Tachyon: Tỷ lệ trúng vũ khí năng lượng +0.5%x Cấp pháo thuật。",
+      "description": "Chiều dài: 315m\nNgoại hình: Thẩm mỹ đế quốc điển hình, thân tàu có hình giọt nước thon dài, bề mặt phủ các tấm giáp gốm trắng tinh khiết và các đường tản nhiệt màu vàng. Mũi tàu ngẩng cao, giống như trường thương của kỵ sĩ.\nBối cảnh: Là nền tảng có số lượng khổng lồ nhất của hải quân đế quốc, lớp Thần Hi không theo đuổi hỏa lực cực hạn, mà nhấn mạnh sự cân bằng và khả năng tác chiến đội hình.",
+      "modules": {
+        "Quang mâu Tachyon mẫu S 'Kẻ Xuyên Thủng' 3×": {
+          "tier": "T1",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 3.0,
+          "resourceBonus": {},
+          "effects": "- Sát thương (T1): 3×600 (Năng lượng)\n- Tầm bắn: 2AU\n- Đặc tính: Giá trị hiệu quả pháo kích tăng 10, gây 120% sát thương lên khiên。",
+          "description": "Lắp đặt ở phần sống lưng mũi tàu gồm 3 tháp pháo quang mâu, khi khai hỏa sẽ tạo ra một tia sáng màu tím chói lóa và ngắn ngủi。"
+        }
+      }
+    },
+    "Hộ vệ hạm lớp Thủ Dạ": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Hộ vệ hạm",
+        "Liên bang Tinh Tọa"
+      ],
+      "tier": "T1",
+      "shields": 25000.0,
+      "shieldDR": 2,
+      "maxShields": 25000,
+      "armor": 22000.0,
+      "armorDR": 250,
+      "maxArmor": 22000,
+      "hull": 35000.0,
+      "hullDR": 120,
+      "maxHull": 35000,
+      "detectionRange": "3.8 AU",
+      "energy": 1050.0,
+      "maxEnergy": 1050.0,
+      "energyRegen": 12.0,
+      "maneuver": 11,
+      "requiredSkill": "gunnery:0.5, control:0.3, engineering:0.2",
+      "effects": "Giáp thích ứng: Mỗi cấp kỹ năng kỹ thuật tăng 1% lượng sửa chữa của thiết bị sửa chữa giáp",
+      "description": "Chiều dài: 290m\nNgoại hình: Cấu trúc hình hộp chữ nhật màu xám đậm mang đậm hơi thở công nghiệp, không có bất kỳ trang trí thừa thãi nào. Mặt bên thân tàu treo các thanh ray phóng khoang thả dù rõ ràng. Tấm giáp thể hiện kết cấu nhám, thuận tiện cho việc ẩn nấp dưới các quang phổ khác nhau.\nBối cảnh: Đơn vị tuyến đầu của Liên bang đối phó với mối đe dọa từ Trùng quần. Ý tưởng thiết kế của lớp Thủ Dạ là \"rẻ tiền, bền bỉ, đa chức năng\". Nó vừa có thể trút mưa đạn trong các trận chiến hạm đội, vừa có thể nhanh chóng đột nhập vào bầu khí quyển để thả thủy quân lục chiến.",
+      "modules": {
+        "Pháo quỹ đạo Warp mẫu S 'Đinh Thử' 4×": {
+          "tier": "T1",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 3.2,
+          "resourceBonus": {},
+          "effects": "- Sát thương (T1): 4×500 (Động năng)\n- Tầm bắn: 3AU\n- Đặc tính: Đạn sau khi ra khỏi nòng sẽ tiến vào siêu không gian trong thời gian ngắn, xuất hiện trực tiếp ở gần mục tiêu. Bỏ qua 50% suy giảm khoảng cách, khó bị phòng thủ điểm đánh chặn。",
+          "description": "Một khẩu pháo điện từ nòng dài xuyên qua trục giữa thân tàu, khi bắn không có ánh lửa rõ ràng, chỉ có những gợn sóng không gian vặn vẹo。"
+        }
+      }
+    },
+    "Hộ vệ hạm lớp Tiêu Binh": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Hộ vệ hạm",
+        "Hợp chúng quốc Zemuria"
+      ],
+      "tier": "T1",
+      "shields": 28000.0,
+      "shieldDR": 2,
+      "maxShields": 28000,
+      "armor": 25000.0,
+      "armorDR": 280,
+      "maxArmor": 25000,
+      "hull": 32000.0,
+      "hullDR": 130,
+      "maxHull": 32000,
+      "detectionRange": "4.0 AU",
+      "energy": 1100.0,
+      "maxEnergy": 1100.0,
+      "energyRegen": 12.0,
+      "maneuver": 11,
+      "requiredSkill": "gunnery:0.4, engineering:0.3, control:0.3",
+      "effects": "Hiệu ứng thân tàu: \n- Mỗi cấp Điều khiển học tăng 1% sát thương drone và 1 điểm giá trị hiệu lực tấn công của drone。\n- Mỗi cấp Pháo thuật tăng 1% sát thương pháo năng lượng và 1 điểm giá trị hiệu lực theo dõi。",
+      "description": "Chiều dài: 305m\nNgoại hình: Lớp Tiêu Binh thể hiện hoàn toàn tính thẩm mỹ thực dụng của Zemuria. Thân tàu có hình nêm lục giác phẳng, không có bất kỳ đường cong hay trang trí thừa thãi nào. Các tấm giáp được ghép nối bằng những đường thẳng trực tiếp nhất, các đường hàn to và rõ ràng. Tông màu tổng thể là xám đen, chỉ có huy hiệu Hợp chúng quốc màu đỏ được sơn ở hai bên mũi tàu.\nBối cảnh: \"Tuyến phòng thủ đầu tiên của chúng ta, cũng là tuyến cuối cùng.\" —— Khẩu hiệu của Xưởng đóng tàu Tân Arbat.",
+      "modules": {
+        "Pháo ion siêu quang tốc loại S 'Búa Tạ' 3x": {
+          "tier": "T1",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 3.0,
+          "resourceBonus": {},
+          "effects": "- Sát thương(T1): 3 × 650 (Động năng/Nhiệt năng)\n- Tầm bắn: 1.0 AU\n- Đặc tính: Kiểm định tấn công của vũ khí này nhận vĩnh viễn +5 giá trị hiệu lực. Vượt quá tầm bắn 1.0 AU, sát thương giảm xuống 20%. Vượt quá tầm bắn 2.0 AU, sát thương bằng 0。",
+          "description": "Ba tháp pháo hình vuông đỉnh phẳng, phân bố đều trên trục giữa phía trên thân tàu. Khi khai hỏa, nòng pháo sẽ sáng lên một vòng cung điện màu xanh lam ngắn ngủi, sau đó bắn ra một quả cầu ion không ổn định, phát ra tiếng xèo xèo。"
+        },
+        "Kho chứa drone hạng nhẹ loại I 'Tổ Ong' 1x": {
+          "tier": "T1",
+          "requiredSkill": "control:0.8, engineering:0.2",
+          "energyCost": 4.0,
+          "resourceBonus": {},
+          "effects": "- Sức chứa kho: Có thể chứa và xuất kích 1 phi đội drone hạng nhẹ T1 (5 chiếc)。\n- Phạm vi kiểm soát: 5 AU\n- Đặc tính: Bổ sung drone cần tiêu hao vật phẩm tương ứng. Drone cung cấp khả năng tấn công tầm xa và trinh sát。",
+          "description": "Kho chứa tích hợp nằm ở phần sau của thân tàu, thả và thu hồi drone thông qua bệ nâng ở bụng tàu。"
+        }
+      }
+    },
+    "Tuần dương hạm lớp Trừng Phạt Giả": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Tuần dương hạm",
+        "Đế quốc Thất Tinh"
+      ],
+      "tier": "T2",
+      "shields": 850000.0,
+      "shieldDR": 1800,
+      "maxShields": 850000,
+      "armor": 1200000.0,
+      "armorDR": 3500,
+      "maxArmor": 1200000,
+      "hull": 950000.0,
+      "hullDR": 2500,
+      "maxHull": 950000,
+      "detectionRange": "31.2 AU",
+      "energy": 5000.0,
+      "maxEnergy": 5000.0,
+      "energyRegen": 50.0,
+      "maneuver": 8,
+      "requiredSkill": "gunnery:0.4, engineering:0.3, control:0.3",
+      "effects": "- Giao thức hỏa lực Đế quốc: Mỗi điểm cấp độ \"Pháo thuật\", sát thương cơ bản của tất cả vũ khí năng lượng tăng 2.5%。\n- Giáp gốm mạng tinh thể: Cung cấp giảm toàn bộ sát thương cố định +5%。",
+      "description": "Chiều dài: 1650m\nNgoại hình: Lớp \"Trừng Phạt Giả\" là điển hình của thẩm mỹ quân sự Đế quốc. Thân tàu có hình thoi thanh lịch, mũi tàu nhọn, hai bên kéo dài ra các bệ vũ khí có hoa văn màu vàng. Toàn thân được bao phủ bởi lớp giáp gốm màu trắng nhẵn bóng, phản chiếu ánh sáng như ngọc trai dưới ánh sáng mặt trời. Nó không góc cạnh như tàu chiến của Liên bang, mà tràn đầy cảm giác mượt mà và cấu trúc trang trí lộng lẫy, nhưng ẩn giấu dưới những cấu trúc này là hỏa lực chết người。\nBối cảnh: Là lực lượng chủ lực tuyệt đối của hạm đội Đế quốc, nhiệm vụ của lớp \"Trừng Phạt Giả\" là thực hiện các nhiệm vụ tuần tra, răn đe và phản ứng nhanh trên biên giới rộng lớn. Nó được thiết kế như một tàu đa năng, vừa có thể áp chế kẻ thù bằng hỏa lực giáo ánh sáng Tachyon liên tục trong chiến đấu tuyến, vừa có thể đối phó với các mục tiêu nhỏ linh hoạt thông qua máy bay không người lái mang theo。",
+      "modules": {
+        "Giáo ánh sáng Tachyon nòng đôi loại M 'Thẩm Phán'": {
+          "tier": "T2",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 32.0,
+          "effects": "- Sát thương: 16 × 7000 (Điện từ/Nhiệt năng)，tổng cộng 8 tháp pháo đôi\n- Tầm bắn: 4.5 AU\n- Đặc tính: Tấn công phớt lờ độ trễ tốc độ ánh sáng. Gây 110% sát thương lên khiên。",
+          "description": "Tám tháp pháo nòng đôi phân bố đối xứng trên các bệ nhô ra ở hai bên thân tàu. Khi khai hỏa, chùm hạt siêu quang tốc màu tím ngay lập tức bắn trúng mục tiêu。"
+        },
+        "Khoang máy bay không người lái tiêu chuẩn Đế quốc": {
+          "tier": "T2",
+          "requiredSkill": "control:1.0",
+          "energyCost": 0.0,
+          "effects": "- Sức chứa: Chứa 2 phi đội máy bay không người lái siêu quang tốc \"Võ Sĩ\"。\n- Chức năng: Giải phóng máy bay không người lái để thực hiện nhiệm vụ chống chiến đấu cơ hoặc quấy rối. Mỗi phi đội máy bay không người lái gây 8000 điểm sát thương điện năng。",
+          "description": "Cửa sập bọc thép nằm ở phần giữa và sau của thân tàu, khi giải phóng, máy bay không người lái tràn ra như một bầy ong。"
+        },
+        "Lò đốt tăng lực Hải quân Đế quốc": {
+          "tier": "T2",
+          "requiredSkill": "engineering:1.0",
+          "energyCost": 0.0,
+          "effects": "- Tốc độ: 12500 km/s\n- Giá trị hiệu quả cơ động: +8",
+          "description": "Mảng động cơ đẩy hình vòng khổng ở đuôi tàu, phun ra plasma màu xanh sáng。"
+        }
+      }
+    },
+    "Tuần dương hạm lớp Ngư Ưng": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Tuần dương hạm",
+        "Liên bang Tinh Tọa"
+      ],
+      "tier": "T2",
+      "shields": 600000.0,
+      "shieldDR": 1200,
+      "maxShields": 600000,
+      "armor": 1800000.0,
+      "armorDR": 4000,
+      "maxArmor": 1800000,
+      "hull": 1100000.0,
+      "hullDR": 2800,
+      "maxHull": 1100000,
+      "detectionRange": "30.9 AU",
+      "energy": 5300.0,
+      "maxEnergy": 5300.0,
+      "energyRegen": 56.0,
+      "maneuver": 7,
+      "requiredSkill": "gunnery:0.5, engineering:0.4, control:0.1",
+      "effects": "- Giao thức điều khiển bắn pháo hạng nặng: Mỗi điểm cấp độ \"Pháo thuật\", sát thương cơ bản của tất cả vũ khí loại L tăng 2.5%。\n- Học thuyết sửa chữa chiến trường: Mỗi điểm cấp độ \"Kỹ thuật\", hiệu suất sửa chữa của máy sửa chữa giáp tăng 1.5%。",
+      "description": "Chiều dài: 1580m\nNgoại hình: Ngoại hình của lớp \"Ngư Ưng\" thô kệch và thực dụng, giống như một viên gạch bay khổng lồ. Thân tàu có cấu trúc hình hộp đối xứng, ngoại trừ tháp tín hiệu. Pháo chính là một khẩu pháo quỹ đạo khổng lồ chiếm gần một phần ba chiều dài thân tàu, để nhường chỗ cho nó, tháp tín hiệu đã bị lệch sang một bên. Toàn bộ con tàu sử dụng lớp sơn mờ màu xám đậm, không có bất kỳ trang trí nào, tràn đầy cảm giác công nghiệp lạnh lẽo。\nBối cảnh: Trong cuộc chiến không hồi kết với Trùng Quần, lớp \"Ngư Ưng\" là trụ cột của hạm đội Liên bang. Triết lý thiết kế của nó chỉ có một: Sống sót, sau đó dùng hỏa lực mạnh nhất để nghiền nát kẻ thù. Nó từ bỏ tính cơ động và khiên, dồn toàn bộ tài nguyên vào lớp giáp dày và khẩu pháo Warp có thể gây sát thương nặng cho tàu mẹ Trùng Quần chỉ bằng một phát bắn。",
+      "modules": {
+        "Pháo quỹ đạo Warp loại L MK25": {
+          "tier": "T2",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 10.0,
+          "effects": "- Sát thương: 1 × 120000 (Động năng)\n- Tầm bắn: 7.0 AU\n- Đặc tính: Đạn được phóng qua siêu không gian, phớt lờ độ trễ tốc độ ánh sáng。",
+          "description": "Đường ray gia tốc điện từ khổng lồ xuyên qua trục giữa của thân tàu. Khi khai hỏa, toàn bộ con tàu sẽ rung chuyển nhẹ do sự giải phóng năng lượng khổng lồ, một gợn sóng không gian vặn vẹo xuất hiện phía trước mục tiêu, tiếp theo là một vụ nổ tàn khốc。"
+        },
+        "Mảng pháo phòng thủ tầm gần 'Đạn Mạc'": {
+          "tier": "T1",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 12.0,
+          "effects": "- Sát thương: 12 × 1500 (Động năng)\n- Tầm bắn: 15000km\n- Đặc tính: Tốc độ bắn cực cao, dùng để đánh chặn tên lửa và chiến đấu cơ。",
+          "description": "Các tháp pháo cỡ nòng nhỏ dày đặc rải rác khắp thân tàu, tạo thành một lưới lửa phòng không không góc chết。"
+        },
+        "Đơn vị sửa chữa giáp robot nano": {
+          "tier": "T2",
+          "requiredSkill": "engineering:1.0",
+          "energyCost": 1000.0,
+          "effects": "- Lượng sửa chữa: Sửa chữa 200000 điểm giá trị giáp trong 1dt。\n- Tiêu hao: Tiêu hao robot nano (cần tiếp tế)。",
+          "description": "Khi khởi động, có thể thấy dòng robot nano màu bạc bao phủ lớp giáp bị hỏng như chất lỏng, nhanh chóng sửa chữa các vết nứt và vết thương。"
+        }
+      }
+    },
+    "Tuần dương hạm lớp Petrov": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Tuần dương hạm",
+        "Hợp chúng quốc Zemuria"
+      ],
+      "tier": "T2",
+      "shields": 380000.0,
+      "shieldDR": 450,
+      "maxShields": 380000,
+      "armor": 1100000.0,
+      "armorDR": 1400,
+      "maxArmor": 1100000,
+      "hull": 550000.0,
+      "hullDR": 800,
+      "maxHull": 550000,
+      "detectionRange": "32.0 AU",
+      "energy": 8800.0,
+      "maxEnergy": 8800.0,
+      "energyRegen": 85.0,
+      "maneuver": 9,
+      "requiredSkill": "control:0.4, gunnery:0.3, engineering:0.3",
+      "effects": "- Liên kết chỉ huy bầy đàn: Mỗi 1 cấp Điều khiển học, sát thương, sinh lực tối đa và tầm bắn của máy bay không người lái trên tàu tăng 1%, giá trị hiệu quả theo dõi của máy bay không người lái +1。\n- Hệ thống kiểm soát hỏa lực phụ trợ: Mỗi 1 cấp Pháo thuật, sát thương vũ khí năng lượng tăng 0.5%, giá trị hiệu quả theo dõi của tháp pháo +1.25。\n- Giao thức tối ưu hóa kiểm soát thiệt hại: Mỗi 1 cấp Công trình học, lượng sửa chữa của máy sửa chữa giáp tăng 1%, và tiêu hao năng lượng giảm 1%。",
+      "description": "Chiều dài: 1450m\nNgoại hình: Lớp Petrov là sự kết tinh của triết lý đóng tàu Zemuria —— một khu công nghiệp bay, được vũ trang tận răng. Thân tàu thể hiện cấu trúc xếp chồng thẳng đứng độc đáo, để nén thể tích và chứa nhà chứa máy bay dạng xoắn ốc khổng lồ, phần giữa thân tàu rộng bất thường, giống như một lăng trụ lục giác bị ép phẳng. Bề mặt thân tàu phủ đầy lưới tản nhiệt và thang bảo trì, hoàn toàn không xem xét đến khí động học hay tính thẩm mỹ. Đặc điểm mang tính biểu tượng của nó là lỗ hổng hình khuyên khổng lồ nằm ở bụng tàu, máy bay không người lái hạng nặng giống như đạn của súng lục ổ quay được bắn xoay ra từ đây。\nBối cảnh: “Nó không đẹp, nhưng nó có thể làm xong mọi công việc bẩn thỉu.”—— Chỉ huy Hạm đội Tuần tra số 14. Thiết kế ban đầu của lớp Petrov là để lấp đầy khoảng trống hỏa lực khổng lồ giữa nhóm khu trục hạm lớp Cận Đại và thiết giáp hạm chủ lực của Hải quân Zemuria. Nó được yêu cầu vừa có thể dọn dẹp tàu nhỏ của địch như khu trục hạm, vừa có thể gặm xương xẩu như thiết giáp hạm. Các nhà thiết kế thông qua việc nén không gian cực độ, đã nhét vào một hệ thống treo máy bay không người lái hạng nặng phức tạp, khiến nó trở thành một “tàu sân bay bỏ túi”.",
+      "modules": {
+        "Pháo ion siêu quang tốc loại M 'Lôi Bạo'": {
+          "tier": "T2",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 20.0,
+          "effects": "- Sát thương: 4 × 8500 (Động năng/Nhiệt năng)\n- Tầm bắn: 4.0 AU\n- Đặc tính: Kiểm định tấn công của vũ khí này nhận được +5 giá trị hiệu quả vĩnh viễn. Vượt quá tầm bắn 4.0 AU, sát thương giảm xuống 20%. Vượt quá tầm bắn 8.0 AU, sát thương bằng 0。",
+          "description": "Bốn tháp pháo hạng trung nòng đôi, lần lượt nằm ở vị trí pháo cõng trên lưng ở mũi tàu và đuôi tàu, cung cấp hỏa lực tầm trung ổn định。"
+        },
+        "Mảng pháo phòng thủ tầm gần 'Thiết Mạc'": {
+          "tier": "T2",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 4.0,
+          "effects": "- Sát thương: 2 × 3000 (Động năng)\n- Tầm bắn: 20000km\n- Đặc tính: Tốc độ bắn cực cao, cung cấp cho tàu chiến +15 giá trị hiệu quả đánh chặn tên lửa/chiến đấu cơ。",
+          "description": "Pháo máy xoay sáu nòng nằm ở vị trí trục tai hai bên thân tàu, luôn quét các mối đe dọa đang đến gần。"
+        },
+        "Nhà chứa máy bay không người lái hạng nặng 'Loa Toàn'": {
+          "tier": "T2",
+          "requiredSkill": "control:0.7, engineering:0.3",
+          "energyCost": 20.0,
+          "effects": "- Sức chứa nhà chứa: Có thể chứa và xuất kích 1 phi đội máy bay không người lái chiến đấu hạng nặng T2 (3 chiếc)。\n- Phạm vi kiểm soát: 25 AU\n- Đặc tính: Máy bay không người lái hạng nặng sở hữu sát thương đơn phát và giáp cực cao, thích hợp tấn công tuần dương hạm và các mục tiêu lớn hơn. Cần tiêu hao vật phẩm máy bay không người lái hạng nặng tương ứng để bổ sung。",
+          "description": "Kỳ tích của công trình học Zemuria, một bệ phóng dạng xoay nhỏ gọn, có thể bắn ra máy bay không người lái hạng nặng có kích thước khổng lồ trong vài giây。"
+        }
+      }
+    },
+    "Tàu sân bay hạm đội lớp Chấp Hành Quan": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Tàu sân bay",
+        "Đế quốc Thất Tinh"
+      ],
+      "tier": "T4",
+      "shields": 22000000.0,
+      "shieldDR": 18000,
+      "maxShields": 22000000,
+      "armor": 20000000.0,
+      "armorDR": 28000,
+      "maxArmor": 20000000,
+      "hull": 16000000.0,
+      "hullDR": 14000,
+      "maxHull": 16000000,
+      "detectionRange": "110.0 AU",
+      "energy": 20500.0,
+      "maxEnergy": 20500.0,
+      "energyRegen": 1250.0,
+      "maneuver": 7,
+      "requiredSkill": "control:0.4, engineering:0.3, gunnery:0.3",
+      "effects": "- Điều phối tuyến đường Đế quốc: Cung cấp +5 giá trị hiệu quả cơ động cho tất cả tàu Đế quốc đồng minh trong bán kính 12AU\n- Mỗi cấp điều khiển học tăng thêm 1% sát thương máy bay chiến đấu và 1 điểm giá trị hiệu quả trúng đích của máy bay chiến đấu\n- Số lượng phi đội trên tàu: 24",
+      "description": "Chiều dài: 7200m\nNgoại hình: Ngôn ngữ thiết kế của Lớp CV Chấp Hành Quan kế thừa từ lớp Quân Chủ, nhưng chú trọng hơn vào tính năng. Thân tàu của nó rộng hơn, loại bỏ pháo chính ở trục giữa, thay vào đó là một boong cất hạ cánh dài bốn km chạy dọc từ đầu đến cuối. Hai bên boong có hai cấu trúc nhà chứa máy bay dạng mô-đun khổng lồ, giống như hai cánh của một cung điện. Giữ lại lớp sơn màu trắng và vàng đặc trưng của Đế quốc, cùng với huy hiệu lộng lẫy, nhưng được lắp thêm máy tạo khiên làm lệch hạng nặng ở các vị trí quan trọng, cho thấy sự cân nhắc về khả năng sinh tồn của nó trong đội hình chiến đấu。\nBối cảnh: “Việc duy trì trật tự không chỉ cần tuyên bố, mà còn cần khả năng thực thi ở khắp mọi nơi. Hạm đội của chúng ta phải giống như luật pháp của Đế quốc, bao phủ từng tấc đất.” —— Chánh án Đế quốc Hera von Carstein.\nLớp CV Chấp Hành Quan là hiện thân của khái niệm tác chiến phân tán của Đế quốc. Nó được thiết kế để đi theo hạm đội thiết giáp hạm chủ lực, cung cấp hỗ trợ phòng không và chống tàu đánh chặn quan trọng, đảm bảo các thiết giáp hạm đắt tiền của Đế quốc không bị các tàu nhỏ của địch quấy rối hoặc làm tê liệt. Sự tồn tại của nó làm cho chiến tuyến của hạm đội Đế quốc vững chắc hơn, khó bị chọc thủng dễ dàng。",
+      "modules": {
+        "Boong cất hạ cánh máy bay chiến đấu tiêu chuẩn Đế quốc cỡ XL": {
+          "tier": "T4",
+          "requiredSkill": "control:0.8, engineering:0.2",
+          "energyCost": 20.0,
+          "effects": "- Chức năng: Có khả năng thực hiện các hoạt động cất hạ cánh và bảo dưỡng cho 8 phi đội trên tàu cùng lúc, sát thương máy bay trên tàu +15%。",
+          "description": "Boong tàu nhẵn bóng chứa đầy các đường ray máy phóng điện từ và trường lực thu hồi năng lượng, các máy bay trên tàu ra vào hiệu quả như một bầy ong. Cần mua máy bay trên tàu để sử dụng。"
+        },
+        "Mảng chia sẻ liên kết dữ liệu mục tiêu": {
+          "tier": "T4",
+          "requiredSkill": "detection:0.7, control:0.3",
+          "energyCost": 20.0,
+          "effects": "- Chức năng: Sau khi chủ động kích hoạt, chọn một đơn vị tàu đồng minh trong bán kính 15AU, trong 2dt tiếp theo, làm cho giá trị hiệu quả theo dõi của tất cả vũ khí của nó +30. Thời gian hồi 10dt。",
+          "description": "Mảng ăng-ten đa phổ phức tạp nằm trên nóc đài chỉ huy, khi khởi động sẽ phát ra một luồng dữ liệu mã hóa vô hình về phía mục tiêu。"
+        },
+        "Mảng pháo phòng thủ tầm gần 'Bích Lũy'": {
+          "tier": "T3",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 8.0,
+          "effects": "- Sát thương(T3): 8 × 4000 (Động năng)\n- Tầm bắn: 30000km\n- Đặc tính: Tốc độ bắn cực cao, cung cấp +40 giá trị hiệu quả đánh chặn tên lửa/máy bay chiến đấu cho chính con tàu。",
+          "description": "Các cụm tháp pháo tự động trải khắp thân tàu, là phòng tuyến cuối cùng của Lớp CV Chấp Hành Quan。"
+        }
+      }
+    },
+    "Tàu sân bay hạm đội lớp Tường Long": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Tàu sân bay",
+        "Liên bang Tinh Tọa"
+      ],
+      "tier": "T4",
+      "shields": 12000000.0,
+      "shieldDR": 14000,
+      "maxShields": 12000000,
+      "armor": 38000000.0,
+      "armorDR": 42000,
+      "maxArmor": 38000000,
+      "hull": 22000000.0,
+      "hullDR": 22000,
+      "maxHull": 22000000,
+      "detectionRange": "105.0 AU",
+      "energy": 24500.0,
+      "maxEnergy": 24500.0,
+      "energyRegen": 13500.0,
+      "maneuver": 6,
+      "requiredSkill": "control:0.5, engineering:0.3, detection:0.2",
+      "effects": "- Thuật toán tổ ong: Mỗi phi đội máy bay chiến đấu không người lái được trang bị trên tàu này, làm tăng 1% sát thương và HP của tất cả các phi đội còn lại. Giá trị này sẽ giảm dần dựa trên số lượng máy bay không người lái bị bắn hạ. (Khi đầy tải 25 phi đội, mỗi phi đội nhận được +24% phần thưởng, 1 phi đội nhận được 0% phần thưởng)\n- Mỗi cấp điều khiển học tăng thêm 1% sát thương máy bay chiến đấu và 1 điểm giá trị hiệu quả trúng đích của máy bay chiến đấu。\n- Số lượng phi đội trên tàu: 25",
+      "description": "Chiều dài: 6800m\nNgoại hình: Ngoại hình của Lớp CV Tường Long tràn ngập sự thô ráp và cảm giác sức mạnh kiểu Liên bang. Thân tàu của nó là một nền tảng bọc thép khổng lồ, không đối xứng, một bên là đài chỉ huy và mảng cảm biến nhô ra, được bảo vệ nhiều lớp, bên kia là nhà chứa máy bay trường lực khép kín. Khác với boong máy phóng của Đế quốc, nhà chứa máy bay của Lớp CV Tường Long được nhúng sâu vào bên trong lớp giáp dày, vận chuyển máy bay chiến đấu đến máy phóng thông qua các thang máy lớn, mang đậm phong cách pháo đài công nghiệp。\nBối cảnh: “Học hỏi kẻ thù của bạn, sau đó đánh bại hắn.” —— Bìa sách giáo khoa chiến lược Liên bang Tinh Tọa\nLớp CV Tường Long là sản phẩm của những bài học đẫm máu mà Liên bang học được từ bầy bọ. Nó từ bỏ hỏa lực trực tiếp của một con tàu đơn lẻ, chuyển sang theo đuổi khả năng tác chiến hiệp đồng tối đa của máy bay trên tàu. Thuật toán tổ ong từ bầy bọ khiến phi đội trên tàu của nó như một thể thống nhất, hỗ trợ lẫn nhau, tạo thành một lưới lửa khó có thể chọc thủng. Nó đóng vai trò là nền tảng phòng không di động và trung tâm hỗ trợ chiến thuật trong tuyến phòng thủ của Liên bang。",
+      "modules": {
+        "Nhà chứa máy bay bên trong tiêu chuẩn Liên bang cỡ XL": {
+          "tier": "T4",
+          "requiredSkill": "engineering:0.6, control:0.4",
+          "energyCost": 40.0,
+          "effects": "- Chức năng: Lớp giáp bảo vệ cực cao, có thể phóng 8 phi đội cùng lúc, sát thương máy bay trên tàu +5%. Càng khó có khả năng mất máy bay trên tàu khi bị hư hại。",
+          "description": "Nền tảng thang máy khổng lồ mở ra như cổng địa ngục, đưa các máy bay chiến đấu đang chờ lệnh từ sâu trong thân tàu ra chiến trường。"
+        },
+        "Cảm biến dao động siêu không gian": {
+          "tier": "T4",
+          "energyCost": 40.0,
+          "requiredSkill": "detection:1.0",
+          "effects": "- Chức năng: Có khả năng phát hiện các sự kiện bước nhảy FTL sắp xảy ra trong bán kính 1 năm ánh sáng, và phát ra cảnh báo trước 5 giây, hiển thị quy mô hạm đội địch và điểm rơi dự kiến. Không thể cung cấp khóa mục tiêu chính xác trước khi bước nhảy hoàn tất。",
+          "description": "Một quả cầu cấu tạo từ vật chất kỳ lạ, liên tục xoay tròn ở lõi thân tàu, có thể nắm bắt được những gợn sóng yếu ớt của siêu không gian。"
+        },
+        "Hệ thống phòng thủ Phalanx hạng nặng": {
+          "tier": "T3",
+          "requiredSkill": "gunnery:0.7, control:0.3",
+          "energyCost": 20.0,
+          "effects": "- Chức năng: Bao gồm hơn 300 tháp pháo tự động, có thể đánh chặn 100 quả tên lửa cùng lúc, giá trị hiệu quả đánh chặn +75. Gây 40000 điểm sát thương。",
+          "description": "Các cụm tháp pháo phòng thủ dày đặc trên bề mặt thân tàu, khi khai hỏa giống như thổi bùng lên một cơn bão kim loại。"
+        }
+      }
+    },
+    "Tàu sân bay hạm đội lớp Tín Thiên Ông": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Tàu sân bay hạm đội",
+        "Hợp chúng quốc Zemuria"
+      ],
+      "tier": "T4",
+      "shields": 5800000.0,
+      "shieldDR": 5500,
+      "maxShields": 5800000,
+      "armor": 22000000.0,
+      "armorDR": 22000,
+      "maxArmor": 22000000,
+      "hull": 18000000.0,
+      "hullDR": 15000,
+      "maxHull": 18000000,
+      "detectionRange": "110.0 AU",
+      "energy": 32000.0,
+      "maxEnergy": 32000.0,
+      "energyRegen": 1500.0,
+      "maneuver": 6,
+      "requiredSkill": "control:0.6, detection:0.3, engineering:0.1",
+      "effects": "- Liên kết chỉ huy hạm đội: [Hào quang] Tất cả các đơn vị đồng minh nằm trong phạm vi chỉ huy của tàu này (110AU), phạm vi kiểm soát của máy bay không người lái/máy bay trên hạm của họ tăng 25%, giá trị hiệu lực theo dõi +10。\n- Lõi chiến tranh điện tử: Mỗi 1 cấp kỹ năng Trinh sát, cường độ nhiễu ECM do tàu này phát ra tăng 2%, phạm vi nhiễu tăng 1%。\n- Tối ưu hóa chiến thuật bầy đàn: Mỗi 1 cấp Điều khiển học, sát thương của máy bay không người lái/máy bay trên hạm tăng 1%, giá trị hiệu lực theo dõi +1。\n- Được coi là xưởng đóng tàu, tăng 70 Năng lực công nghiệp cho mọi hoạt động chế tạo bên trong tàu sân bay。\n- Số lượng phi đội máy bay trên hạm: 8 (Tác chiến) / 22 (Tổng dung lượng đạn dự trữ)",
+      "description": "Chiều dài: 6800m\nNgoại hình: Lớp Tín Thiên Ông tiếp nối triết lý thiết kế \"tấm giáp bay\" của lớp Hải Ưng, nhưng thể hình to lớn và dày dặn hơn. Nó trông giống như một tấm khiên hình thoi khổng lồ bị kéo dài, bề mặt không có bất kỳ sự nhấp nhô nào, chỉ có vô số bảng radar mảng pha hình lục giác bao phủ toàn thân như vảy. Ở bốn đỉnh của thân tàu, các ăng-ten sóng hấp dẫn khổng lồ nhô ra, duy trì trường lực nhiễu đáng sợ đó. Mũi phun động cơ của nó phát ra ánh sáng màu xanh tím trầm mặc, tựa như cự thú dưới biển sâu。\nBối cảnh: “Hãy tin tưởng đồng đội của bạn, họ là hậu thuẫn tốt nhất của bạn.”——Bộ Chiến lược Hải quân Hợp chúng quốc。\nNếu lớp Hải Ưng là ngọn giáo của hạm đội Zemuria, thì lớp Tín Thiên Ông chính là bộ não và mạng lưới thần kinh của hạm đội này. Các nhà thiết kế của Zemuria không mong đợi một chiếc tàu sân bay đơn lẻ có thể xuất ra hỏa lực hủy thiên diệt địa như tàu sân bay của Liên bang, ngược lại, họ đã biến lớp Tín Thiên Ông thành một nền tảng hỗ trợ tối thượng. Ý nghĩa tồn tại của nó nằm ở việc kiểm soát môi trường chiến trường: thông qua việc rải các bong bóng nhiễu bước nhảy diện rộng để khóa chặt đường lui của kẻ thù, thông qua chiến tranh điện tử phức tạp để áp chế hệ thống kiểm soát hỏa lực của kẻ thù, và cung cấp hỗ trợ liên kết dữ liệu cho bầy máy bay không người lái khổng lồ của phe mình. Trên chiến trường, mặc dù nó thường không phải là đơn vị có lượng sát thương cao nhất, nhưng tuyệt đối là mục tiêu mà kẻ thù muốn ưu tiên tiêu diệt nhất——nếu chúng có thể khóa mục tiêu nó trong môi trường nhiễu điện tử quy mô lớn。",
+      "modules": {
+        "Máy phóng nhiễu bước nhảy khu vực cấp Soái hạm": {
+          "tier": "T4",
+          "requiredSkill": "detection:0.8, control:0.2",
+          "energyCost": 500.0,
+          "effects": "- Cường độ nhiễu: 6 điểm/tầng (Có thể cộng dồn đến 96 điểm)\n- Phạm vi tác dụng: 5.0 AU (Đường kính bong bóng nhiễu)\n- Tầm bắn: 40.0 AU\n- Đặc tính: Cần tiêu hao [Đầu dò nhiễu siêu không gian hạng nặng T4]. Tạo ra một trường lực nhiễu tồn tại liên tục trong khu vực mục tiêu, ngăn chặn mọi hành vi bước nhảy, mỗi lần phóng 1 phát vào cùng một vị trí, cộng dồn 1 tầng. Hết hiệu lực sau 60dt。",
+          "description": "Bệ phóng tên lửa siêu không gian khổng lồ nằm ở đường gờ lưng của thân tàu, có thể phóng các dị thường siêu không gian đã được đóng gói đến khoảng cách cực xa。"
+        },
+        "Hệ thống áp chế chiến tranh điện tử đa phổ 'Sương mù'": {
+          "tier": "T4",
+          "requiredSkill": "detection:1.0",
+          "energyCost": 800.0,
+          "effects": "- Số lượng mục tiêu: Tối đa 100 mục tiêu thù địch\n- Hiệu ứng nhiễu: Giá trị hiệu lực kiểm định tấn công của mục tiêu -10\n- Tác dụng phụ (Tín hiệu dẫn đường): Sau khi khởi động, giá trị hiệu lực bị trinh sát/bị khóa của tàu này +10 (Cực kỳ dễ bị khóa ngược)",
+          "description": "Khi khởi động, radar mảng pha trên bề mặt thân tàu sẽ phát ra bức xạ mạnh mẽ mà mắt thường không thể nhìn thấy, tạo ra hàng ngàn tín hiệu giả trên cảm biến của kẻ thù, nhưng cũng vì thế mà khiến bản thân trở nên nổi bật như một ngọn đuốc trong đêm tối。"
+        },
+        "Trung tâm chỉ huy chiến thuật tổng hợp": {
+          "tier": "T4",
+          "requiredSkill": "control:1.0",
+          "energyCost": 300.0,
+          "effects": "- Chức năng: Có thể đồng thời chỉ huy 8 phi đội máy bay chiến đấu không người lái hạng nặng tiến hành tác chiến. Tổng dung lượng nhà chứa máy bay là 22 phi đội。\n- Đặc tính: Cung cấp hỗ trợ liên kết dữ liệu cao cấp。",
+          "description": "Phòng chỉ huy hình cầu ở lõi thân tàu, chỉ huy trưởng ở đây thông qua liên kết thần kinh điều phối mạng lưới máy bay không người lái của toàn bộ hạm đội。"
+        }
+      }
+    },
+    "Tàu chỉ huy công nghiệp lớp Kiên Nhẫn": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Tàu chỉ huy công nghiệp",
+        "Đế quốc Thất Tinh",
+        "Soái hạm"
+      ],
+      "tier": "T4",
+      "shields": 30000000.0,
+      "shieldDR": 25000,
+      "maxShields": 30000000,
+      "armor": 25000000.0,
+      "armorDR": 35000,
+      "maxArmor": 25000000,
+      "hull": 25000000.0,
+      "hullDR": 20000,
+      "maxHull": 25000000,
+      "detectionRange": "150.0 AU",
+      "energy": 25000.0,
+      "maxEnergy": 25000.0,
+      "energyRegen": 2500.0,
+      "maneuver": 2,
+      "requiredSkill": "engineering:0.4, science:0.3, control:0.3",
+      "effects": "- Mỗi cấp Kỹ thuật cung cấp cho tàu này +1 điểm thưởng công nghiệp; mỗi cấp Khoa học tăng thêm 1% sản lượng nấu chảy; mỗi cấp Điều khiển học tăng thêm 1% hiệu suất khai thác của drone。\n- Soái hạm công nghiệp: Tự mang +15 ổn định bước nhảy (cơ bản +10, thân tàu thêm +5)。\n- Chỉ huy tổng thể: Sát thương của phi đội tiêm kích mang theo +1.5%/cấp Điều khiển học, giá trị hiệu lực trúng đích +1/cấp Điều khiển học。\n- Số lượng phi đội máy bay trên hạm: 30 (10 nhà chứa tiêm kích, 20 nhà chứa drone công nghiệp)",
+      "description": "Chiều dài: 8500m\nNgoại hình: Thiết kế của Lớp Kiên Nhẫn thể hiện hoàn hảo sự kết hợp giữa tính thẩm mỹ kỹ thuật và chủ nghĩa thực dụng của đế quốc. Thân tàu có hình dáng thon dài và thanh lịch, giống như một thanh dao găm bạch kim sắp xé toạc biển sao. Thân tàu rộng hơn và các cửa khoang công nghiệp mô-đun rải rác trên đó cho thấy bản chất của nó như một tàu mẹ công nghiệp。\nBối cảnh: “Khi ánh sáng của trí tuệ và sức mạnh vụt tắt, ý chí kiên nhẫn chính là ngọn đèn sáng cuối cùng của chúng ta. Hãy tiến lên theo sự dẫn dắt của nó, đừng bao giờ lạc lối.” —— Tư lệnh Hạm đội Khai phá số 1 của Đế quốc, Marcus Aurelius。\nLớp Kiên Nhẫn là nền tảng để đế quốc mở rộng lãnh thổ vào không gian sâu thẳm chưa biết. Nó cân bằng giữa phòng thủ và tính cơ động, có thể dẫn dắt một đội viễn chinh tiến sâu vào các tinh vực chưa được khai phá đầy nguy hiểm, xây dựng một trung tâm công nghiệp và hậu cần tạm thời với chính nó làm cốt lõi trước khi thiết lập một cứ điểm vĩnh viễn。",
+      "modules": {
+        "Nhà máy tinh luyện mô-đun tiêu chuẩn Đế quốc loại XL": {
+          "tier": "T4",
+          "requiredSkill": "science:0.6, engineering:0.4",
+          "energyCost": 1000.0,
+          "effects": "- Chức năng: Có thể xử lý nhiều loại nguyên liệu thô từ quặng đến khí gas, và tinh chế chúng thành phôi công nghiệp tiêu chuẩn hoặc đồng vị có độ tinh khiết cao. Khối lượng xử lý tối đa hàng ngày là 200.000 tấn quặng tiêu chuẩn。",
+          "description": "Một mô-đun khổng lồ nằm ở giữa thân tàu, khi hoạt động, lớp giáp bên ngoài sẽ mở ra, để lộ mạng lưới đường ống phức tạp bên trong và lõi nấu chảy tỏa ra nhiệt độ cao。"
+        },
+        "Trung tâm điều phối drone": {
+          "tier": "T4",
+          "requiredSkill": "control:0.7, engineering:0.3",
+          "energyCost": 500.0,
+          "effects": "- Chức năng: Có thể đồng thời điều phối 20 phi đội drone công nghiệp và 5 phi đội tiêm kích hoạt động. Phi đội tiêm kích nhận được phần thưởng \"Chiến thuật bầy đàn\", giá trị hiệu lực trúng đích +5。",
+          "description": "Một không gian hình cầu khổng lồ chứa đầy hình chiếu ba chiều và luồng dữ liệu bên dưới đài chỉ huy, được vận hành bởi trí tuệ nhân tạo cao cấp。"
+        },
+        "Mảng thăm dò tài nguyên diện rộng Ninh Tĩnh": {
+          "tier": "T4",
+          "requiredSkill": "detection:0.8, science:0.2",
+          "energyCost": 0.0,
+          "effects": "- Chức năng: Có thể tiến hành quét địa chất sâu các thiên thể trong phạm vi 5 AU, đánh dấu các mạch quặng có giá trị cao và khu vực tập trung năng lượng, đồng thời đánh giá rủi ro khai thác。",
+          "description": "Mảng cảm biến khổng lồ có thể gập lại。"
+        }
+      }
+    },
+    "Tàu chỉ huy công nghiệp lớp Thiên Hạc": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Tàu chỉ huy công nghiệp",
+        "Liên bang Tinh Tọa",
+        "Soái hạm"
+      ],
+      "tier": "T4",
+      "shields": 15000000.0,
+      "shieldDR": 18000,
+      "maxShields": 15000000,
+      "armor": 50000000.0,
+      "armorDR": 55000,
+      "maxArmor": 50000000,
+      "hull": 25000000.0,
+      "hullDR": 25000,
+      "maxHull": 25000000,
+      "detectionRange": "140.0 AU",
+      "energy": 25600.0,
+      "maxEnergy": 25600.0,
+      "energyRegen": 2600.0,
+      "maneuver": 2,
+      "requiredSkill": "engineering:0.4, science:0.2, control:0.4",
+      "effects": "- Mỗi cấp Công trình học cung cấp cho tàu này +1 giá trị cộng thêm công nghiệp; mỗi cấp Khoa học tăng thêm 1% sản lượng nung chảy; mỗi cấp Điều khiển học tăng thêm 1% hiệu suất thu thập của drone。\n- Soái hạm công nghiệp: Tự mang +10 ổn định bước nhảy. Giáp nhận thêm 10% giảm nhẹ sát thương (DM%)。\n- Bầy đàn chúa tể: Sát thương của phi đội tiêm kích mang theo +1.5%/cấp Điều khiển học, giá trị hiệu lực trúng đích +1/cấp Điều khiển học。\n- Số lượng phi đội trên tàu: 32 (12 khoang tiêm kích, 20 khoang drone công nghiệp), có thể xuất kích đồng thời 8 phi đội tiêm kích。",
+      "description": "Chiều dài: 8200m\nNgoại hình: Lớp Thiên Hạc là sản phẩm đỉnh cao của chủ nghĩa thực dụng Liên bang, ngoại hình của nó là một chiếc hộp bọc thép khổng lồ, góc cạnh màu xanh đậm. Bề mặt thân tàu không có bất kỳ trang trí thừa thãi nào, chỉ có những tấm giáp composite dày, các cổng kết nối mô-đun công nghiệp khổng lồ và các cổng phóng drone dày đặc. Nó hy sinh mọi theo đuổi thẩm mỹ, dồn mọi nguồn lực vào khả năng sinh tồn và hiệu suất công nghiệp。\nBối cảnh: “Không có đạn, chiến tranh không thể bắt đầu. Không có thép, Liên bang không có chỗ đứng.” —— Tổng tư lệnh Bộ Hậu cần Liên bang, Tướng quân Takeda。\nTrong cuộc chiến vĩnh cửu với bầy bọ, tài nguyên chính là sinh mệnh. Lớp Thiên Hạc được thiết kế làm xưởng vũ khí di động và căn cứ thu thập tài nguyên ở tiền tuyến của Liên bang. Nó có thể cưỡng chế hoạt động dưới sự quấy rối của bầy bọ quy mô nhỏ, nhanh chóng chuyển hóa vành đai tiểu hành tinh thành tài nguyên chiến tranh có thể sử dụng, cung cấp hỗ trợ tiếp tế và sửa chữa liên tục cho hạm đội tiền tuyến。",
+      "modules": {
+        "Nhà máy tinh luyện hạng nặng toàn thời tiết tiêu chuẩn Liên bang loại XL": {
+          "tier": "T4",
+          "requiredSkill": "engineering:0.7, science:0.3",
+          "energyCost": 1000.0,
+          "effects": "- Chức năng: Thiết kế chuyên biệt để xử lý quặng không gian có độ cứng cao, thành phần phức tạp. Sở hữu hệ thống nghiền và phân loại độc lập, có thể chống lại hiệu quả rủi ro cháy nổ và ăn mòn trong quá trình hoạt động. Lượng xử lý tối đa hàng ngày là 250.000 tấn quặng tiêu chuẩn. Cũng có thể xử lý mảnh vỡ bầy bọ。",
+          "description": "Một cỗ máy khổng lồ chiếm gần một nửa thể tích thân tàu, khi hoạt động toàn bộ con tàu đều có thể cảm nhận được sự rung lắc nhẹ, giống như một con cự thú đang nhai。"
+        },
+        "Hệ thống cảng mẹ drone 'Đa Trọng'": {
+          "tier": "T4",
+          "requiredSkill": "control:0.8, engineering:0.2",
+          "energyCost": 500.0,
+          "effects": "- Chức năng: Sở hữu dây chuyền sản xuất và bảo dưỡng drone tự động hóa cao, có thể nhanh chóng bổ sung drone công nghiệp bị mất trong khoảng thời gian giữa các trận chiến. Có thể chỉ huy đồng thời 20 phi đội drone công nghiệp và 8 phi đội tiêm kích。",
+          "description": "Hai bên thân tàu là nhà chứa máy bay mở khổng lồ giống như tổ ong, drone ra vào như ong thợ。"
+        },
+        "Bộ điều phối phòng thủ và nhận thức tình hình chiến trường": {
+          "tier": "T3",
+          "requiredSkill": "detection:0.5, control:0.5",
+          "energyCost": 0.0,
+          "effects": "- Chức năng: Chia sẻ dữ liệu cảm biến của tàu này với hạm đội hộ tống, và tự tự động phân bổ mục tiêu phòng thủ cho các tàu hộ tống. Cung cấp +5 giá trị hiệu lực đánh chặn cho các đơn vị đồng minh trong phạm vi 10AU。",
+          "description": "Tháp cảm biến bọc thép nằm trên đỉnh đài chỉ huy, ngay cả dưới hỏa lực dữ dội nhất vẫn có thể duy trì hoạt động。"
+        }
+      }
+    },
+    "Tàu chỉ huy công nghiệp lớp Divana": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Tàu chỉ huy công nghiệp",
+        "Hợp chúng quốc Zemuria",
+        "Soái hạm"
+      ],
+      "tier": "T4",
+      "shields": 18000000.0,
+      "shieldDR": 19000,
+      "maxShields": 18000000,
+      "armor": 55000000.0,
+      "armorDR": 58000,
+      "maxArmor": 55000000,
+      "hull": 30000000.0,
+      "hullDR": 28000,
+      "maxHull": 30000000,
+      "detectionRange": "135.0 AU",
+      "energy": 28000.0,
+      "maxEnergy": 28000.0,
+      "energyRegen": 2800.0,
+      "maneuver": 2,
+      "requiredSkill": "engineering:0.5, control:0.3, science:0.2",
+      "effects": "- Người đi biển kiên nghị: Tàu tự mang +10 độ ổn định lõi bước nhảy. Ngoài ra, hiệu ứng tiêu cực do hiện tượng thiên văn vũ trụ khắc nghiệt (như bão ion, vành đai bức xạ) gây ra giảm 30%。\n- Soái hạm công nghiệp: Tự mang +10 ổn định bước nhảy. Cung cấp +5% hiệu suất khai thác/trục vớt cho các tàu công nghiệp đồng minh trong phạm vi 10AU。\n- Mạng lưới tổ ong: Mỗi 1 cấp Điều khiển học, hiệu suất thu thập/sát thương của máy bay không người lái công nghiệp/máy bay chiến đấu trên hạm tăng 1.25%, phạm vi hoạt động tăng 2%。\n- Số lượng phi đội máy bay trên hạm: 35 (10 nhà chứa máy bay chiến đấu, 25 nhà chứa máy bay không người lái công nghiệp)",
+      "description": "Chiều dài: 8000m\nNgoại hình: Lớp Divana là hình ảnh thu nhỏ di động của sức mạnh công nghiệp Zemuria, ngoại hình của nó là một chiếc sà lan màu xám đậm khổng lồ, vuông vức. Nó không có một chút thiết kế nào vì mục đích thẩm mỹ, bề mặt thân tàu chứa đầy các khoang chứa hàng gắn ngoài dạng mô-đun, các đơn vị xử lý quặng khổng lồ và các bệ cất hạ cánh máy bay không người lái dày đặc. Để đối phó với môi trường vũ trụ khắc nghiệt ở các tinh khu biên giới Zemuria, đài chỉ huy của Lớp Divana được chôn sâu dưới lớp giáp dày hàng trăm mét, bên ngoài chỉ có các mảng cảm biến hạng nặng xếp chồng lên nhau。\nBối cảnh: “Xây dựng lại quê hương trên vùng đất hoang, mỗi hòn đá cứng đầu đều là gạch ngói.” —— Lời khắc của thuyền trưởng tàu đầu tiên Lớp Divana \"Lao động mô phạm\"。\nỞ Zemuria, công nghiệp đồng nghĩa với sinh tồn. Lớp Divana được thiết kế làm cốt lõi của một hạm đội viễn chinh khai phá. Nó không chỉ là một con tàu khai thác mỏ, mà còn là một thành phố công nghiệp di động có thể hoạt động độc lập trong không gian sâu thẳm trong nhiều năm。",
+      "modules": {
+        "Mảng xử lý khoáng sản tổng hợp loại XL": {
+          "tier": "T4",
+          "requiredSkill": "engineering:0.8, science:0.2",
+          "energyCost": 1200.0,
+          "effects": "- Chức năng: Có thể đồng thời xử lý nhiều loại quặng, khối băng và khí, sở hữu các dây chuyền nghiền, sàng lọc, nấu chảy và tách đồng vị độc lập. Khối lượng xử lý tối đa hàng ngày là 300.000 tấn quặng tiêu chuẩn。",
+          "description": "Tổ hợp công nghiệp khổng lồ chiếm gần 60% thể tích thân tàu, khi hoạt động sẽ tỏa ra lượng nhiệt lớn và rung động tần số thấp ra xung quanh。"
+        },
+        "Cảng mẹ tổng hợp máy bay không người lái": {
+          "tier": "T4",
+          "requiredSkill": "control:0.8, engineering:0.2",
+          "energyCost": 600.0,
+          "effects": "- Chức năng: Có thể đồng thời chỉ huy 25 phi đội máy bay không người lái công nghiệp và 8 phi đội máy bay chiến đấu thực hiện nhiệm vụ. Máy bay không người lái công nghiệp có các khoang bảo trì và chế tạo chuyên dụng, có thể giảm thiểu hao mòn hoạt động một cách hiệu quả。",
+          "description": "Các bệ mở trải khắp bề mặt trên và dưới của thân tàu, máy bay không người lái tấp nập như ong thợ。"
+        },
+        "Bộ ổn định thích ứng môi trường": {
+          "tier": "T4",
+          "requiredSkill": "science:0.7, engineering:0.3",
+          "energyCost": 0.0,
+          "effects": "- Chức năng: Điều chỉnh động tần số khiên và trường lực cấu trúc của tàu để chống lại môi trường vũ trụ khắc nghiệt. Cung cấp cho tàu thêm +10 độ ổn định lõi bước nhảy。",
+          "description": "Một loạt các cuộn dây trọng lực và bộ điều chỉnh pha phân bố bên trong thân tàu, là chìa khóa để Lớp Divana có thể hoạt động ở những khu vực mà các tàu khác không thể sống sót。"
+        }
+      }
+    },
+    "Tàu chỉ huy công nghiệp Lớp Zordaz": {
+      "flagship": false,
+      "tags": [
+        "Phi thuyền",
+        "Phương tiện",
+        "Tàu chỉ huy công nghiệp",
+        "Soái hạm",
+        "Phiên bản đặc biệt"
+      ],
+      "tier": "T0",
+      "shields": 100000.0,
+      "shieldDR": 50000,
+      "maxShields": 100000,
+      "armor": 120000000.0,
+      "armorDR": 150000,
+      "maxArmor": 120000000,
+      "hull": 20000000.0,
+      "hullDR": 50000,
+      "maxHull": 20000000,
+      "detectionRange": "120.0 AU",
+      "energy": 45000.0,
+      "maxEnergy": 45000.0,
+      "energyRegen": 4500.0,
+      "maneuver": 1,
+      "requiredSkill": "engineering:0.5, gunnery:0.3, science:0.2",
+      "effects": "- Cấu trúc chưa biết: Thiết kế giáp cực đoan. Sức chứa khiên cực nhỏ, nhưng giá trị giáp cực kỳ khổng lồ。\n- Chuyên gia lắp ráp: Không chỉ có thể bảo trì tàu chiến từ cấp Thiết giáp hạm trở xuống, mà còn có thể lắp ráp hiệu quả các tạo tác liên quan đến đồng vị tối. Hiệu suất bảo trì Titan và Siêu hàng không mẫu hạm là 25%。\n- Thân tàu hiệp đồng: Mỗi cấp cộng thêm Pháo thuật tăng 1.5% sát thương và 1 giá trị hiệu quả cho Pháo dòng Entropy. Mỗi cấp Kỹ thuật tăng 1% số lượng cấu trúc/giáp mà tàu kỹ thuật sửa chữa cho đồng minh, cũng như 1% số lượng khai thác (Lưu ý: Tàu kỹ thuật không thể sửa chữa khiên)。\n- Xưởng đóng tàu di động: Cung cấp phần thưởng cố định +70 Sức mạnh công nghiệp (IP) cho tất cả các hoạt động chế tạo/lắp ráp tổng trên tàu, bản thân được coi là một xưởng đóng tàu lớn。",
+      "description": "Chiều dài: 25km\nNgoại hình: Một con tàu khổng lồ cực kỳ kỳ dị và đầy cảm giác áp bức. Nó giống như một chiếc cánh bay hình tam giác ngược khổng lồ, cực kỳ phẳng, không có đài chỉ huy hay khu dân cư nhô lên thông thường. Ngoại trừ một cấu trúc cổng sao hình tam giác ngược ở phần đầu, không có bất kỳ cơ sở vật chất bên ngoài thừa thãi nào. Toàn bộ thân tàu được bao phủ bởi một lớp sơn mờ màu đỏ sẫm, dường như có thể hấp thụ ánh sao xung quanh. Chỉ có thể neo đậu tại các cảng siêu lớn。\nBối cảnh: Không ai biết tại sao con tàu này lại tồn tại ở đây, cũng không tìm thấy bất kỳ mã nhận dạng nào thuộc về các thế lực đã biết. Nó dường như là di vật của một loại công nghệ kỹ thuật viễn cổ nào đó, ý tưởng cốt lõi trong thiết kế của nó hoàn toàn đi ngược lại lẽ thường \"ưu tiên khiên\" của tàu sao hiện đại, chuyển sang dựa vào lớp giáp thực thể gần như không thể phá hủy để chống lại sự khắc nghiệt của vũ trụ。",
+      "modules": {
+        "Mảng Pháo dòng Entropy loại XL x3": {
+          "tier": "T5",
+          "requiredSkill": "gunnery:0.8, science:0.2",
+          "energyCost": 1500,
+          "resourceBonus": {},
+          "effects": "- Sát thương: 3 × 2,556,000 (Nhiệt năng/Nổ)。\n- Tầm bắn: 15.0 AU\n- Đặc tính: Quá tải tăng Entropy. Ban đầu gây sát thương cơ bản, tiếp theo mỗi lần khai hỏa liên tiếp của vũ khí này sẽ gây thêm 20% sát thương, hiệu ứng tăng sát thương này có thể cộng dồn tối đa lên đến 500% sát thương cơ bản。",
+          "description": "Ba quả cầu vật chất tối lơ lửng phân bố theo hình tam giác trên ba mặt phẳng của thân tàu. Bản thân vật chất tối không màu, nhưng do lực hấp dẫn tại điểm kỳ dị trung tâm của chúng cực kỳ tập trung, ngay cả ánh sáng cũng không thể thoát ra, khiến chúng có màu đen tuyền sâu thẳm về mặt thị giác. Khi khai hỏa, dòng năng lượng phát ra ánh sáng vàng sẽ xuyên qua không gian và trực tiếp bắn trúng mục tiêu。"
+        },
+        "Máy phát xung lập thể": {
+          "tier": "T4",
+          "requiredSkill": "science:1.0",
+          "energyCost": 1200.0,
+          "resourceBonus": {},
+          "effects": "- Sát thương: 55000 (Vật lý/Điện từ)\n- Phạm vi tác dụng: Lấy tàu này làm trung tâm, không phận hình cầu bán kính 100,000 km。\n- Đặc tính: Xóa sổ tuyệt đối. Kích nổ xung năng lượng cao, gây sát thương AOE không phân biệt cho tất cả các mục tiêu nhỏ trong phạm vi (Bao gồm máy bay trên hạm, máy bay không người lái và tên lửa của cả hai bên). Vì là bao phủ lập thể toàn diện, đòn tấn công này bỏ qua né tránh (bỏ qua đối kháng giá trị hiệu quả)。",
+          "description": "Nút năng lượng được tích hợp sâu trong lớp giáp thân tàu, khi khởi động sẽ ngay lập tức giải phóng một vòng sóng chấn động không gian màu đỏ sẫm có thể nhìn thấy bằng mắt thường, nghiền nát mọi tạo tác mỏng manh xung quanh。"
+        },
+        "Cảng mẹ tàu kỹ thuật tự luật": {
+          "tier": "T5",
+          "requiredSkill": "engineering:0.8, control:0.2",
+          "energyCost": 800.0,
+          "resourceBonus": {},
+          "effects": "- Chức năng: Chuyên chở và có thể xuất kích đồng thời 20 tàu kỹ thuật tự luật hạng nặng, có thể khai thác mỏ hoặc sửa chữa đồng minh。\n- Đặc tính: Ban đầu đã có sẵn tàu kỹ thuật, không cần mua thêm. Tàu kỹ thuật có thể tiến hành hoạt động khai thác mỏ, trục vớt với hiệu suất cao, hoặc tiến hành sửa chữa sâu cho giáp và cấu trúc của tàu đồng minh (không thể sửa chữa khiên)。",
+          "description": "Khoang thu hồi khổng lồ ẩn dưới cánh bay phẳng, những chiếc tàu kỹ thuật có hình dạng như lăng kính tam giác màu đỏ đang túc trực trong đó, luôn sẵn sàng thực hiện các lệnh kiến tạo hoặc sửa chữa。"
+        },
+        "Cổng sao không gian": {
+          "tier": "T6",
+          "requiredSkill": "science:1.0",
+          "energyCost": 25600.0,
+          "resourceBonus": {},
+          "effects": "- Cho phép hạm đội đồng minh đến hỗ trợ, hoặc triển khai một hạm đội. Phạm vi triển khai được xác định bởi khoảng cách có thể bước nhảy của bản thân. Khi mở, độ ổn định bước nhảy của bản thân không được nhỏ hơn 0。",
+          "description": "Cổng sao không gian hình tam giác ngược là đặc điểm nổi bật nhất của lớp Zordaz. Nó được làm từ một loại vật liệu siêu không gian chưa biết, có thể xé mở một lối đi không gian ổn định trong thời gian ngắn, kết nối hai điểm cách xa nhau. Mặc dù nguyên lý của nó vẫn chưa rõ ràng, nhưng không còn nghi ngờ gì nữa, khả năng này có tiềm năng mang tính lật đổ ở cấp độ chiến thuật và chiến lược。"
+        }
+      }
+    },
+    "Tàu khu trục cá nhân lớp Ảo Ảnh [PROTOTYPE-0]": {
+      "flagship": true,
+      "tags": [
+        "T0",
+        "Nguyên mẫu",
+        "Tàng hình",
+        "Cá nhân",
+        "ICE"
+      ],
+      "tier": "T0",
+      "shields": 0.0,
+      "shieldDR": 0,
+      "maxShields": 0,
+      "armor": 8000.0,
+      "armorDR": 50,
+      "maxArmor": 8000,
+      "hull": 12000.0,
+      "hullDR": 80,
+      "maxHull": 12000,
+      "detectionRange": "0.8 AU",
+      "energy": 3500.0,
+      "maxEnergy": 3500.0,
+      "energyRegen": 80.0,
+      "maneuver": 28,
+      "requiredSkill": "control:0.5, detection:0.3, engineering:0.2",
+      "effects": "- Hệ thống tàng hình lượng tử: Hoàn toàn vô hình với mọi cảm biến T3 trở xuống trong khi không khai hỏa\n- Cơ động cực cao: Giá trị cơ động +28, có thể né đòn với xác suất cao\n- Hệ thống lõi pha: Tiêu hao 200 NL để dịch chuyển tức thời trong phạm vi 0.5 AU\n- Nhược điểm: Không có khiên, giáp mỏng — khi bị phát hiện rất dễ tổn thương\n- [Khóa] Chỉ hoạt động khi người lái đạt control ≥ 1.5 và detection ≥ 1.0",
+      "description": "Chiều dài: 85m\nThử nghiệm duy nhất do Bộ phận R&D đen của ICE chế tạo. Toàn bộ thân tàu được bọc bằng vật liệu hấp thụ sóng thế hệ thứ sáu, kết hợp lõi nhiễu loạn điện từ chủ động khiến nó gần như vô hình. Hiện chưa được đăng ký trong bất kỳ cơ sở dữ liệu nào — tồn tại của nó là bí mật cấp độ 9.",
+      "modules": {
+        "Hệ thống ám sát quỹ đạo 'Bóng Tối'": {
+          "tier": "T0",
+          "requiredSkill": "gunnery:0.8, detection:0.2",
+          "energyCost": 150.0,
+          "effects": "- Sát thương: 1 × 450000 (Hư vô)\n- Tầm bắn: 1.2 AU\n- Đặc tính: Bắn xuyên hoàn toàn qua khiên và giáp T3 trở xuống\n- Hồi chiêu: 3 lượt sau mỗi lần khai hỏa",
+          "description": "Một vũ khí chạy bằng năng lượng hư không được tháo ra từ di tích ngoài hành tinh. Khi khai hỏa, không có âm thanh — mục tiêu chỉ đơn giản là biến mất."
+        },
+        "Lõi phân tích chiến trường 'Thiên Nhãn'": {
+          "tier": "T0",
+          "requiredSkill": "detection:1.0",
+          "energyCost": 50.0,
+          "effects": "- Chủ động: Quét toàn bộ khu vực 3 AU, tiết lộ vị trí chính xác tất cả mục tiêu trong 5 lượt kể cả khi đang tàng hình\n- Bị động: Tăng phạm vi trinh sát thêm 2.5 AU\n- Cung cấp dữ liệu điểm yếu — tăng 30% sát thương lên mục tiêu được phân tích",
+          "description": "Mảng cảm biến lượng tử đa chiều, có thể đọc được dao động không-thời gian cực nhỏ do tàu vũ trụ gây ra dù ở khoảng cách hàng AU."
+        }
+      }
+    },
+    "Chiến hạm thực nghiệm X-00 'Thần Phán' [MK.ZERO]": {
+      "flagship": true,
+      "tags": [
+        "T0",
+        "Thực nghiệm",
+        "Đế quốc",
+        "Chiến hạm hạng nặng",
+        "Nguyên mẫu"
+      ],
+      "tier": "T0",
+      "shields": 5000000.0,
+      "shieldDR": 8000,
+      "maxShields": 5000000,
+      "armor": 8000000.0,
+      "armorDR": 15000,
+      "maxArmor": 8000000,
+      "hull": 6000000.0,
+      "hullDR": 12000,
+      "maxHull": 6000000,
+      "detectionRange": "60.0 AU",
+      "energy": 85000.0,
+      "maxEnergy": 85000.0,
+      "energyRegen": 8500.0,
+      "maneuver": 3,
+      "requiredSkill": "gunnery:0.4, engineering:0.3, control:0.3",
+      "effects": "- Lò phản ứng Hư Không: Tái tạo 10% NL tối đa mỗi lượt\n- Vũ khí chính Omega không thể bị phản công hoặc làm lệch\n- Giáp thích ứng: Giảm 20% sát thương nhận vào sau lần trúng đầu tiên, tích lũy đến 60%\n- [Cảnh báo] Khai hỏa vũ khí chính gây mất ổn định lõi trong 2 lượt — không thể bắn lại",
+      "description": "Chiều dài: 3800m\nDự án bí mật cấp Hoàng gia Đế quốc Thất Tinh, chỉ có một chiếc được chế tạo. Toàn bộ con tàu được xây dựng xung quanh một vũ khí hủy diệt hành tinh duy nhất. Đã tham gia và kết thúc ba cuộc nổi dậy chỉ bằng cách xuất hiện. Người ta nói rằng chỉ cần nhìn thấy bóng nó trên radar là đã đủ để quân địch đầu hàng.",
+      "modules": {
+        "Pháo Omega 'Phán Quyết Thần' cỡ nòng 8000mm": {
+          "tier": "T0",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 25000.0,
+          "effects": "- Sát thương: 1 × 50,000,000 (Plasma/Nhiệt năng)\n- Tầm bắn: 15 AU\n- Đặc tính: Xuyên phá mọi khiên và giáp T4 trở xuống\n- Cảnh báo: Thời gian sạc 2 lượt — trong khi sạc tàu không thể di chuyển",
+          "description": "Nòng pháo đơn dài 1200m chạy xuyên suốt trục giữa thân tàu. Khi khai hỏa, nó tạo ra một chớp sáng có thể nhìn thấy bằng mắt thường từ khoảng cách 5 AU."
+        },
+        "Lưới phòng thủ điểm 'Bất Khả Xâm Phạm' cỡ XL": {
+          "tier": "T0",
+          "requiredSkill": "engineering:0.8, control:0.2",
+          "energyCost": 2000.0,
+          "resourceBonus": {
+            "maxShields": 3000000,
+            "shieldDR": 5000,
+            "maxArmor": 2000000,
+            "armorDR": 3000
+          },
+          "effects": "- 2000+ tháp pháo phòng thủ tự động bao phủ toàn bộ bề mặt tàu\n- Chặn được 99% tên lửa và drone hạng nhẹ đến trung\n- Bổ sung bonus giáp/khiên khi hoạt động",
+          "description": "Lưới phòng thủ điểm dày đặc nhất từng được chế tạo. Khi kích hoạt, cả con tàu như được bao phủ bởi một vầng sáng không ngừng."
+        },
+        "Hệ thống sửa chữa nano tự luật cấp Soái hạm": {
+          "tier": "T0",
+          "requiredSkill": "engineering:1.0",
+          "energyCost": 5000.0,
+          "effects": "- Hồi phục 500,000 điểm giáp và 300,000 điểm khiên mỗi lượt\n- Có thể sửa chữa ngay cả trong chiến đấu\n- Trong tình huống nguy cấp (hull < 20%): tăng gấp đôi tốc độ hồi phục",
+          "description": "Hàng triệu robot nano tự sao chép bơm khắp thân tàu, liên tục vá lại các vết nứt và gia cố cấu trúc. Con tàu này gần như không thể bị phá hủy từ bên ngoài."
+        }
+      }
+    },
+    "Tàu tuần tra huyền bí lớp Bạch Liên [ROSARIA ΣIGMA]": {
+      "flagship": true,
+      "tags": [
+        "T0",
+        "Linh năng",
+        "Rosaria",
+        "Huyền bí",
+        "Duy nhất"
+      ],
+      "tier": "T0",
+      "shields": 2000000.0,
+      "shieldDR": 3000,
+      "maxShields": 2000000,
+      "armor": 1500000.0,
+      "armorDR": 2500,
+      "maxArmor": 1500000,
+      "hull": 1800000.0,
+      "hullDR": 2000,
+      "maxHull": 1800000,
+      "detectionRange": "80.0 AU",
+      "energy": 120000.0,
+      "maxEnergy": 120000.0,
+      "energyRegen": 12000.0,
+      "maneuver": 10,
+      "requiredSkill": "psionics:0.6, science:0.2, control:0.2",
+      "effects": "- Bảo vệ linh năng: Miễn nhiễm với mọi hiệu ứng điều khiển tâm trí và can nhiễu điện tử\n- Giao tiếp hư vô: Có thể liên lạc qua khoảng cách không giới hạn\n- Nhân hồi phục: Tốc độ hồi phục NL tăng theo cấp Linh năng của thuyền trưởng (x1.5 mỗi cấp)\n- Hào quang phòng thủ: Tự động phản chiếu 15% sát thương nhận vào lại kẻ tấn công",
+      "description": "Chiều dài: 620m\nĐược chế tạo tại Đền thờ trung tâm Rosaria từ kim loại thiên thạch linh thể. Toàn bộ vỏ tàu được khắc các công thức linh năng vi tế — khi năng lượng kích hoạt, những công thức này phát sáng màu trắng xanh huyền ảo. Người điều khiển nó không ngồi ghế — họ hợp nhất tâm thức với con tàu.",
+      "modules": {
+        "Thánh điện linh năng 'Cội Nguồn'": {
+          "tier": "T0",
+          "requiredSkill": "psionics:1.0",
+          "energyCost": 8000.0,
+          "effects": "- Sát thương: 4 × 3,000,000 (Bí thuật/Không gian)\n- Tầm bắn: Không giới hạn trong cùng khu vực sao\n- Đặc tính: Bỏ qua hoàn toàn khiên vật lý, chỉ tấn công phần hồn/lõi tàu\n- Bị động: Tăng 25% hiệu quả mọi kỹ năng Linh năng của toàn hạm đội",
+          "description": "Buồng thiền định trung tâm nơi các Thị Nữ Rosaria ngồi thành vòng tròn, khuếch đại sức mạnh linh năng của nhau lên đến ngưỡng có thể xé toạc không gian."
+        },
+        "Rào cản hư không 'Bức Màn Giữa'": {
+          "tier": "T0",
+          "requiredSkill": "psionics:0.8, science:0.2",
+          "energyCost": 15000.0,
+          "resourceBonus": {
+            "maxShields": 5000000,
+            "shieldDR": 8000
+          },
+          "effects": "- Kích hoạt: Tạo rào cản hư không trong 3 lượt — hoàn toàn miễn nhiễm với mọi sát thương vật lý\n- Trong thời gian duy trì: Không thể bắn ra ngoài\n- Bị động: +5,000,000 khiên tối đa khi đang hoạt động",
+          "description": "Một vài người từng thấy rào cản này mô tả nó như 'bước vào giữa hai khoảnh khắc thời gian' — không gì có thể chạm tới con tàu khi nó đang ở đó."
+        }
+      }
+    },
+    "Tàu hộ vệ hạng nặng lớp Thiên Lôi [T3]": {
+      "flagship": false,
+      "tags": [
+        "T3",
+        "Hộ vệ hạm",
+        "Đế quốc",
+        "Hỏa lực cao"
+      ],
+      "tier": "T3",
+      "shields": 3500000.0,
+      "shieldDR": 4500,
+      "maxShields": 3500000,
+      "armor": 5000000.0,
+      "armorDR": 8000,
+      "maxArmor": 5000000,
+      "hull": 4000000.0,
+      "hullDR": 6000,
+      "maxHull": 4000000,
+      "detectionRange": "45.0 AU",
+      "energy": 12000.0,
+      "maxEnergy": 12000.0,
+      "energyRegen": 350.0,
+      "maneuver": 7,
+      "requiredSkill": "gunnery:0.4, engineering:0.3, control:0.3",
+      "effects": "- Điều phối pháo hạm: Mỗi cấp Pháo thuật tăng 3% sát thương tất cả vũ khí trên tàu\n- Giáp phản ứng: Khi bị tấn công liên tiếp, tự động kích hoạt lớp giáp phản ứng tạm thời (+2000 DR trong 2 lượt)\n- Hệ thống tên lửa bão hòa: Có thể phóng đồng thời lên đến 12 tên lửa dẫn đường",
+      "description": "Chiều dài: 2200m\nLớp hộ vệ hạm hạng nặng tiêu chuẩn của Hải quân Đế quốc, thiết kế dành cho vai trò tấn công tầm gần và hộ tống hạm đội. Khác với các tàu cùng hạng, lớp Thiên Lôi ưu tiên hỏa lực bên cạnh khả năng phòng thủ — kết quả là một con tàu có thể vừa hứng chịu đòn vừa trả đòn cực kỳ hiệu quả.",
+      "modules": {
+        "Bệ phóng tên lửa bão hòa 'Lôi Vũ' x6": {
+          "tier": "T3",
+          "requiredSkill": "gunnery:1.0",
+          "energyCost": 80.0,
+          "effects": "- Sát thương: 6 × 120,000 (Nổ/Nhiệt năng)\n- Tầm bắn: 6.0 AU\n- Đặc tính: Mỗi lần bắn phóng 6 tên lửa dẫn đường đồng thời, rất khó đánh chặn hoàn toàn\n- Hồi chiêu: Có thể bắn mỗi 2 lượt",
+          "description": "Sáu bệ phóng đa nòng nằm trên giàn xoay hai bên thân tàu, khi khai hỏa tạo thành một cơn mưa tên lửa."
+        },
+        "Pháo điện từ hạng nặng 'Thiên Lôi Cổ' 2×": {
+          "tier": "T3",
+          "requiredSkill": "gunnery:0.8, engineering:0.2",
+          "energyCost": 250.0,
+          "effects": "- Sát thương: 2 × 800,000 (Động năng/Điện từ)\n- Tầm bắn: 8.0 AU\n- Đặc tính: Mỗi phát bắn trúng làm tê liệt hệ thống điện của mục tiêu trong 1 lượt",
+          "description": "Hai nòng pháo điện từ khổng lồ song song trên trục tàu, tích điện bằng năng lượng phụ trợ từ lò phản ứng phụ."
+        },
+        "Giáp phản ứng biến thể 'Kim Cương' loại L": {
+          "tier": "T3",
+          "requiredSkill": "engineering:1.0",
+          "energyCost": 300.0,
+          "resourceBonus": {
+            "maxArmor": 2000000,
+            "armorDR": 4000,
+            "maxHull": 1000000,
+            "hullDR": 2000
+          },
+          "effects": "- Bị động: Khi giáp < 50%, tự động kích hoạt lớp bảo vệ thứ cấp (+4000 DR trong 3 lượt)\n- Bonus stats khi module hoạt động",
+          "description": "Lớp giáp biến thể thế hệ mới nhất của Đế quốc — về lý thuyết có thể chịu đựng một đòn trực tiếp từ vũ khí hạng nặng T3."
+        }
+      }
+    },
+    "Tàu tấn công nhanh lớp Vô Song [T3 - Zemuria]": {
+      "flagship": false,
+      "tags": [
+        "T3",
+        "Tấn công nhanh",
+        "Zemuria",
+        "Tốc độ cao"
+      ],
+      "tier": "T3",
+      "shields": 1800000.0,
+      "shieldDR": 2000,
+      "maxShields": 1800000,
+      "armor": 2500000.0,
+      "armorDR": 3500,
+      "maxArmor": 2500000,
+      "hull": 2000000.0,
+      "hullDR": 2800,
+      "maxHull": 2000000,
+      "detectionRange": "55.0 AU",
+      "energy": 15000.0,
+      "maxEnergy": 15000.0,
+      "energyRegen": 500.0,
+      "maneuver": 14,
+      "requiredSkill": "gunnery:0.4, control:0.3, detection:0.3",
+      "effects": "- Chiến thuật hit-and-run: Sau khi tấn công, có thể ngay lập tức dịch chuyển 0.3 AU\n- Hệ thống nhắm bắn dự đoán: Mỗi cấp Trinh sát tăng 5% độ chính xác và 2% sát thương\n- Overdrive: Tiêu hao 3000 NL để tăng cơ động lên +6 và tốc độ tấn công x1.5 trong 2 lượt",
+      "description": "Chiều dài: 980m\nHợp chúng quốc Zemuria nổi tiếng với triết lý 'tấn công nhanh nhất là phòng thủ tốt nhất'. Lớp Vô Song là hiện thân hoàn hảo của triết lý đó — mọi tấm giáp thừa đều bị loại bỏ để nhường chỗ cho động cơ và hệ thống vũ khí.",
+      "modules": {
+        "Hệ thống vũ khí đa năng 'Cuồng Phong' liên hoàn": {
+          "tier": "T3",
+          "requiredSkill": "gunnery:0.7, control:0.3",
+          "energyCost": 180.0,
+          "effects": "- Sát thương: 8 × 180,000 (Động năng) mỗi 0.5 giây\n- Tầm bắn: 4.0 AU\n- Đặc tính: Liên thanh — càng bắn lâu DPS càng tăng (tối đa +50% sau 10 giây)\n- Nhược điểm: Quá nhiệt sau 20 giây liên tục — cần 5 giây hạ nhiệt",
+          "description": "Mảng pháo liên thanh 8 nòng xoay tốc độ cao, thiết kế cho chiến đấu cự ly gần. Khi hoạt động tối đa, nòng pháo phát sáng đỏ rực vì nhiệt."
+        },
+        "Động cơ dịch chuyển chiến thuật 'Ảo Bộ'": {
+          "tier": "T3",
+          "requiredSkill": "control:0.8, engineering:0.2",
+          "energyCost": 500.0,
+          "resourceBonus": {
+            "maneuver": 8
+          },
+          "effects": "- Chủ động: Dịch chuyển tức thời đến bất kỳ điểm nào trong 0.8 AU\n- Bị động: +8 cơ động\n- Hồi chiêu: 3 lượt\n- Trong 1 lượt đầu sau dịch chuyển: không thể bị nhắm mục tiêu bởi vũ khí dẫn đường",
+          "description": "Không phải FTL — đây là dịch chuyển không gian vi mô, một kỹ thuật nguy hiểm chỉ phi công giỏi nhất mới dám sử dụng trong chiến đấu."
+        },
+        "Cảm biến trinh sát chiến trường đa phổ": {
+          "tier": "T2",
+          "requiredSkill": "detection:1.0",
+          "energyCost": 100.0,
+          "resourceBonus": {
+            "detectionRange": "20 AU bonus"
+          },
+          "effects": "- Phát hiện tất cả tàu trong phạm vi 75 AU\n- Vạch lộ trình di chuyển dự đoán của mục tiêu\n- Chia sẻ dữ liệu với hạm đội trong 50 AU",
+          "description": "Tháp cảm biến xoay tốc độ cao gắn trên đỉnh thân tàu. Đây là 'mắt' cho phép lớp Vô Song luôn biết kẻ thù ở đâu — ngay cả khi chúng đang cố giấu."
+        }
+      }
+    }
+  }
+}
